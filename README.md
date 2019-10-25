@@ -1,7 +1,7 @@
 # Orçamento do Estado de São Paulo
 ----
 
-## Planejado
+## Orçamento Planejado
 
 ### [LOA](https://www.al.sp.gov.br/alesp/pesquisa-proposicoes/?direction=inicio&lastPage=0&currentPage=0&act=detalhe&idDocumento=&rowsPerPage=20&currentPageDetalhe=1&tpDocumento=&method=search&text=&natureId=&legislativeNumber=&legislativeYear=&natureIdMainDoc=loa&anoDeExercicio=&strInitialDate=&strFinalDate=&author=105&supporter=&politicalPartyId=&stageId=)
 
@@ -14,7 +14,13 @@
 
 ----
 
-## Executado
+## Orçamento Executado
 
 - [Fazenda SP](https://portal.fazenda.sp.gov.br/acessoinformacao/Paginas/Consulta-Receita-Orçamentária.aspx)
-- [Detalhado](https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsDespesa.aspx)
+- [Fazenda SP Detalhado](https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsDespesa.aspx)
+
+----
+## Fonte de Receita
+[Fazenda SP Detalhado](https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsReceita.aspx)
+
+
