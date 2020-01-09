@@ -22,4 +22,6 @@
 ## Fonte de Receita
 - [Fazenda SP Detalhado](https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsReceita.aspx)
 
-
+## Outras Referências
+- Comparar com PIB de outros Países
+- []
