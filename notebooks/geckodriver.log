@@ -738,3 +738,16 @@ GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1138:3
 1578321478061	Marionette	INFO	Listening on port 43269
 1578321478138	Marionette	WARN	TLS certificate errors will be ignored for this session
 1578321499963	Marionette	INFO	Stopped listening on port 43269
+1580844697204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGn6LT0"
+1580844697525	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580844697544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580844697544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580844697544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580844697544	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580844698935	Marionette	INFO	Listening on port 36095
+1580844699013	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gdk-Message: 17:19:19.382: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
