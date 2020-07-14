@@ -751,3 +751,15 @@ Gdk-Message: 17:19:19.382: firefox: Fatal IO error 11 (Resource temporarily unav
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1594741089398	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileERhV97"
+1594741090986	Marionette	INFO	Listening on port 45675
+1594741091040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594741136911	Marionette	INFO	Stopped listening on port 45675
+1594741241273	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile47ssGP"
+1594741242951	Marionette	INFO	Listening on port 39255
+1594741243019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594741288106	Marionette	INFO	Stopped listening on port 39255
+1594741310904	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaacvD8"
+1594741312449	Marionette	INFO	Listening on port 34373
+1594741312509	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594741359769	Marionette	INFO	Stopped listening on port 34373
