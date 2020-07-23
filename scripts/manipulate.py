@@ -1,5 +1,23 @@
 
 import re
+import pandas as pd
+
+
+
+
+
+def normalize_cols(df):
+    return df.str.normalize('NFKD').str.encode('ascii', errors='ignore').str.decode('utf-8').str.replace("$","").str.replace("(","").str.replace(")","").str.replace('-','').str.replace(' ','_').str.lower().str.replace('.','')
+
+
+
+
+
+
+
+
+
+
 
 def manipulate_ldo_2021(text):
     #select only the pages of interest

@@ -1,0 +1,113 @@
+# Add custom colorscales here!
+my_scale: ['#DA4657', '#054257', '#49B5BD', '#B1F200', '#FEB916']
+
+# Source: https://learnui.design/tools/data-color-picker.html
+learn_ui_design: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'] 
+
+# Impulso visual ID:
+impulso: ['#F24949', '#34758A', '#0097A7', '#007ABE', '#F2F2F2']
+
+# pale
+pale: ['#24306C',"#BB4140",'#559F7A','#2C0226' ,'#585858']
+
+#novo
+novo: ['#FA7609','#0D485A','#1D8179','#585858']
+
+redAndBlue: ['#DF718A','#5DB7EB']
+
+vale_bars:
+
+  barmode: 'stack'
+  hovermode: 'y' #'x unified'
+  
+  paper_bgcolor: '#FFFFFF'
+  plot_bgcolor: 'rgba(0,0,0,0)'
+  
+  margin :
+    l: 10
+    r: 10
+    t: 25
+    b: 10
+
+  title:
+    family: 'Courier New, monospace'
+    color: '#000000'
+    size: 20
+  
+  ### AXIS TITLE
+  axis_tilte:
+    family: 'Courier New, monospace'
+    color: '#000000'
+    size: 18
+  
+  #AXIS VALUES
+  axis_legend:
+    family: 'Courier New, monospace'
+    color: '#000000'
+    size: 10
+    gridcolor: '#e5e5e5'
+    x:
+      title: ''
+      gridcolor: '#e5e5e5'
+    y:
+      title: ''
+      gridcolor: '#FFFFFF'
+
+
+    scale:
+      linear:
+        x:
+          type: 'date'
+          tickformat: '%d/%m'
+        y:
+          type: 'linear'
+          tickformat: 'n'
+
+  legend:
+    family: 'Courier New, monospace'
+    color: '#000000'
+    orientation: 'h' #vertical
+    size: 10
+    bgcolor: 'rgba(0,0,0,0)'
+    bordercolor: 'rgba(0,0,0,0)'
+    borderwidth: 0
+    traceorder: 'reversed' #reversed or normal
+    position:
+      x: 
+      y:
+      xanchor:
+      yanchor:
+
+
+  source:
+    text: ''
+    family: 'Courier New, monospace'
+    size: 16
+    color: '#000000'
+    position:
+      x: -0.04
+      y: -0.14
+    
+  altura: 800
+  largura:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
