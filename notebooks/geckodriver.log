@@ -823,3 +823,7 @@ Exiting due to channel error.
 1595939990951	Marionette	INFO	Listening on port 42053
 1595939990971	Marionette	WARN	TLS certificate errors will be ignored for this session
 1595940046047	Marionette	INFO	Stopped listening on port 42053
+1596198012705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePL87gD"
+1596198014431	Marionette	INFO	Listening on port 41299
+1596198014534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596198100259	Marionette	INFO	Stopped listening on port 41299
