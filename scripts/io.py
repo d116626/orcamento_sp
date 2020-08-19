@@ -13,7 +13,7 @@ from google.oauth2 import service_account
 from oauth2client.service_account import ServiceAccountCredentials
 import manipulate
 
-def get_orcamento():
+def get_orcamento_executado():
     today = datetime.datetime.today().strftime('%Y-%m-%d')
 
     years = [str(i) for i in range(2020,2021)]
@@ -21,7 +21,7 @@ def get_orcamento():
     for year in years:
         
         path=os.getcwd()
-        path = path.split('notebooks')[0] + f'data/orcamento/{year}'
+        path = path.split('notebooks')[0] + f'data/orcamento/{year}/executado'
 
         profile = webdriver.FirefoxProfile()
         profile.set_preference("browser.download.dir",path);
@@ -113,6 +113,126 @@ def get_orcamento():
         return df
 
 
+
+
+
+
+
+def get_orcamento_receita(tipo):
+    today = datetime.datetime.today().strftime('%Y-%m-%d')
+
+    years = [str(i) for i in range(2020,2021)]
+
+    
+    if tipo == 'previsto':
+        i=0
+    else:
+        i=1
+    
+        
+    for year in years:
+
+        path=os.getcwd()
+        
+        if i == 0:
+        
+            path = path.split('notebooks')[0] + f'data/orcamento/{year}/receita/previsto'
+            
+        else:
+            path = path.split('notebooks')[0] + f'data/orcamento/{year}/receita/arrecadado'
+
+
+
+        profile = webdriver.FirefoxProfile()
+        profile.set_preference("browser.download.dir",path);
+        profile.set_preference("browser.download.folderList",2);
+        profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/csv,application/excel,application/vnd.msexcel,application/vnd.ms-excel,text/anytext,text/comma-separated-values,text/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/octet-stream");
+        profile.set_preference("browser.download.manager.showWhenStarting",False);
+        profile.set_preference("browser.helperApps.neverAsk.openFile","application/csv,application/excel,application/vnd.msexcel,application/vnd.ms-excel,text/anytext,text/comma-separated-values,text/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/octet-stream");
+        profile.set_preference("browser.helperApps.alwaysAsk.force", False);
+        profile.set_preference("browser.download.manager.useWindow", False);
+        profile.set_preference("browser.download.manager.focusWhenStarting", False);
+        profile.set_preference("browser.download.manager.alertOnEXEOpen", False);
+        profile.set_preference("browser.download.manager.showAlertOnComplete", False);
+        profile.set_preference("browser.download.manager.closeWhenDone", True);
+        profile.set_preference("pdfjs.disabled", True);
+
+        # year = '2019'
+
+        firefox = webdriver.Firefox(firefox_profile=profile)
+
+        # firefox = webdriver.Firefox()
+        url = 'https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsReceita.aspx'
+
+        firefox.get(url)
+        # firefox.request('POST', url,)
+
+
+        ano = Select(firefox.find_element_by_name('ctl00$ContentPlaceHolder1$ddlAno'))
+        ano.select_by_value(year)
+
+        firefox.find_element_by_id("ctl00_ContentPlaceHolder1_rblFase_{}".format(i)).click()
+
+
+        options = {
+        'ctl00$ContentPlaceHolder1$ddlOrgao':'',
+        # 'ctl00$ContentPlaceHolder1$ddlCategoria:'',
+        'ctl00$ContentPlaceHolder1$ddlGestao' : '',
+        # 'ctl00$ContentPlaceHolder1$ddlOrigem: '',
+        'ctl00$ContentPlaceHolder1$ddlUge':'',
+        # 'ctl00$ContentPlaceHolder1$ddlEspecie':'',
+        'ctl00$ContentPlaceHolder1$ddlFonteRecursos':'',
+        # 'ctl00$ContentPlaceHolder1$ddlRubrica':'',
+        # 'ctl00$ContentPlaceHolder1$ddlAlinea':'',
+        # 'ctl00$ContentPlaceHolder1$rblFase':'',
+        'ctl00$ContentPlaceHolder1$ddlSubAlinea':'',
+        }
+
+        for op in options.keys():
+            selected = Select(firefox.find_element_by_name(op))
+            selected.select_by_value(options[op])
+            time.sleep(0.2)
+
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnPesquisar").click()
+        time.sleep(3)
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
+        time.sleep(5)
+        
+        firefox.quit()
+        
+        os.rename(path+'/gdvReceitasExcel.csv', path+'/{}_orcamento_{}.csv'.format(today, year))
+        
+        df = pd.read_csv(path+'/{}_orcamento_{}.csv'.format(today, year), encoding='windows-1254')
+        
+        df = df[df['Órgão'].notnull()]
+        
+        df['date'] = today
+        
+        df.columns = manipulate.normalize_cols(df.columns)
+        
+        if i == 0 :
+            cols = ['previsto_do_ano']
+        else:
+            l = df.columns.to_list()
+            cols = [x for x in l if 'arrecadado_ate' in x]
+            df = df.rename(columns={cols[0]:'arrecadado'})
+            cols = ['arrecadado']
+
+        for col in cols:
+            df[col] = df[col].str.replace('.','').str.replace(',','.')
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+    
+        df = df.loc[:, df.isnull().mean() < .98]
+    
+        
+        df.to_csv(path+'/last_data.csv', encoding='utf-8', index=False)
+        
+        df.to_csv(path+'/{}_orcamento_{}.csv'.format(today, year),  encoding='utf-8', index=False)
+
+
+        
+    return df
+        
 
 
 
