@@ -1,5 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.firefox.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
+
 import time
 import os
 import pandas as pd
@@ -12,6 +15,9 @@ from gcloud import storage
 from google.oauth2 import service_account
 from oauth2client.service_account import ServiceAccountCredentials
 import manipulate
+
+
+
 
 def get_orcamento_executado():
     today = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -38,8 +44,10 @@ def get_orcamento_executado():
         profile.set_preference("pdfjs.disabled", True);
         
         
+        options = Options()
+        options.headless = True
         
-        firefox = webdriver.Firefox(firefox_profile=profile)
+        firefox = webdriver.Firefox(options=options,firefox_profile=profile, executable_path = GeckoDriverManager().install())
         url = 'https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsDespesa.aspx'
 
         firefox.get(url)
@@ -159,8 +167,10 @@ def get_orcamento_receita(tipo):
 
         # year = '2019'
 
-        firefox = webdriver.Firefox(firefox_profile=profile)
-
+        options = Options()
+        options.headless = True
+        
+        firefox = webdriver.Firefox(options=options,firefox_profile=profile, executable_path = GeckoDriverManager().install())
         # firefox = webdriver.Firefox()
         url = 'https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsReceita.aspx'
 

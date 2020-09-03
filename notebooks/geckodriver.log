@@ -918,3 +918,61 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1597865762938	Marionette	INFO	Listening on port 34625
 1597865763024	Marionette	WARN	TLS certificate errors will be ignored for this session
 1597865782544	Marionette	INFO	Stopped listening on port 34625
+1599138910267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFPUwRQ"
+Error: no DISPLAY environment variable specified
+1599138916249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyCUMNg"
+Error: no DISPLAY environment variable specified
+1599139245465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletLN8w9"
+Error: no DISPLAY environment variable specified
+1599139269172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyD9c7R"
+Error: no DISPLAY environment variable specified
+1599139287922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileg8Xv7S"
+Error: no DISPLAY environment variable specified
+1599139456548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5DZcyR"
+Error: no DISPLAY environment variable specified
+1599139526251	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXkRx80"
+Error: no DISPLAY environment variable specified
+1599139833416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCXAKRQ"
+Error: no DISPLAY environment variable specified
+1599139845981	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileItbgYo"
+Error: no DISPLAY environment variable specified
+1599139862468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYEhQPD"
+Error: no DISPLAY environment variable specified
+1599139979186	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGUlws3"
+Error: no DISPLAY environment variable specified
+1599140097568	geckodriver	INFO	Listening on 127.0.0.1:41061
+1599140097574	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejMfAFF"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599140099008	Marionette	INFO	Listening on port 42937
+1599140099077	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:15989): GLib-GObject-CRITICAL **: 10:35:52.051: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599140158892	Marionette	INFO	Stopped listening on port 42937
+1599140177897	geckodriver	INFO	Listening on 127.0.0.1:46949
+1599140177917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexQzNAv"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599140179310	Marionette	INFO	Listening on port 36425
+1599140179324	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:16291): GLib-GObject-CRITICAL **: 10:37:11.634: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599140238682	Marionette	INFO	Stopped listening on port 36425
+1599140311356	geckodriver	INFO	Listening on 127.0.0.1:47987
+1599140311376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaCKN44"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599140312794	Marionette	INFO	Listening on port 44323
+1599140312880	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:16603): GLib-GObject-CRITICAL **: 10:38:52.471: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599140340908	Marionette	INFO	Stopped listening on port 44323
+1599140341903	geckodriver	INFO	Listening on 127.0.0.1:37877
+1599140341913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAPtqw9"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599140343292	Marionette	INFO	Listening on port 44631
+1599140343317	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:16855): GLib-GObject-CRITICAL **: 10:39:13.935: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599140362748	Marionette	INFO	Stopped listening on port 44631
