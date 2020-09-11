@@ -976,3 +976,183 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 
 (firefox:16855): GLib-GObject-CRITICAL **: 10:39:13.935: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1599140362748	Marionette	INFO	Stopped listening on port 44631
+1599156842179	geckodriver	INFO	Listening on 127.0.0.1:38661
+1599156842184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQnbRkA"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599156843584	Marionette	INFO	Listening on port 39803
+1599156843589	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:31618): GLib-GObject-CRITICAL **: 15:14:47.451: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599156898700	Marionette	INFO	Stopped listening on port 39803
+1599156916526	geckodriver	INFO	Listening on 127.0.0.1:41831
+1599156916543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYX3KPF"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599156918051	Marionette	INFO	Listening on port 35983
+1599156918217	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:31962): GLib-GObject-CRITICAL **: 15:15:33.816: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599156942587	Marionette	INFO	Stopped listening on port 35983
+1599156943475	geckodriver	INFO	Listening on 127.0.0.1:46157
+1599156943488	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2fJ5rY"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599156944931	Marionette	INFO	Listening on port 42401
+1599156944992	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:32184): GLib-GObject-CRITICAL **: 15:15:54.763: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599156963822	Marionette	INFO	Stopped listening on port 42401
+1599174002778	geckodriver	INFO	Listening on 127.0.0.1:52887
+1599174003783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGn21xw"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599174005273	Marionette	INFO	Listening on port 45209
+1599174005289	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599260406708	geckodriver	INFO	Listening on 127.0.0.1:51721
+1599260406717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexyedaD"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599260408405	Marionette	INFO	Listening on port 46137
+1599260408468	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:44089): GLib-GObject-CRITICAL **: 20:00:53.467: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599260463993	Marionette	INFO	Stopped listening on port 46137
+1599260489531	geckodriver	INFO	Listening on 127.0.0.1:57817
+1599260489543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaw5mvW"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599260490955	Marionette	INFO	Listening on port 41229
+1599260491052	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:44319): GLib-GObject-CRITICAL **: 20:01:45.711: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599260514769	Marionette	INFO	Stopped listening on port 41229
+1599260515725	geckodriver	INFO	Listening on 127.0.0.1:49617
+1599260515734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexvsCXQ"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599260517157	Marionette	INFO	Listening on port 44609
+1599260517241	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:44552): GLib-GObject-CRITICAL **: 20:02:06.544: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599260535766	Marionette	INFO	Stopped listening on port 44609
+1599433206973	geckodriver	INFO	Listening on 127.0.0.1:34805
+1599433206978	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelbDZmI"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599433208398	Marionette	INFO	Listening on port 44153
+1599433208482	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9485): GLib-GObject-CRITICAL **: 20:00:50.986: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599433261899	Marionette	INFO	Stopped listening on port 44153
+1599433284956	geckodriver	INFO	Listening on 127.0.0.1:56361
+1599433284965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6N0Opj"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599433286390	Marionette	INFO	Listening on port 44663
+1599433286471	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9713): GLib-GObject-CRITICAL **: 20:01:36.362: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599433305145	Marionette	INFO	Stopped listening on port 44663
+1599433306011	geckodriver	INFO	Listening on 127.0.0.1:54215
+1599433306020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1J2IZj"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599433307410	Marionette	INFO	Listening on port 45163
+1599433307425	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9915): GLib-GObject-CRITICAL **: 20:01:56.641: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599433325680	Marionette	INFO	Stopped listening on port 45163
+1599519611997	geckodriver	INFO	Listening on 127.0.0.1:53153
+1599519612002	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXutyPJ"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599519613441	Marionette	INFO	Listening on port 40353
+1599519613506	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:14927): GLib-GObject-CRITICAL **: 20:01:37.131: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599519705455	Marionette	INFO	Stopped listening on port 40353
+1599519725493	geckodriver	INFO	Listening on 127.0.0.1:54151
+1599519725509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyI0p3F"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599519726951	Marionette	INFO	Listening on port 33971
+1599519727014	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:15516): GLib-GObject-CRITICAL **: 20:02:23.255: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599519752355	Marionette	INFO	Stopped listening on port 33971
+1599519753257	geckodriver	INFO	Listening on 127.0.0.1:38259
+1599519753275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledwFNSl"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599519754727	Marionette	INFO	Listening on port 36631
+1599519754780	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:15773): GLib-GObject-CRITICAL **: 20:02:49.837: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599519778884	Marionette	INFO	Stopped listening on port 36631
+1599606007023	geckodriver	INFO	Listening on 127.0.0.1:43693
+1599606007028	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBi96Ox"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599606008568	Marionette	INFO	Listening on port 39767
+1599606008632	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599692407627	geckodriver	INFO	Listening on 127.0.0.1:45977
+1599692407633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8L0u8o"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599692409185	Marionette	INFO	Listening on port 40173
+1599692409237	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:53996): GLib-GObject-CRITICAL **: 20:00:51.863: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599692462391	Marionette	INFO	Stopped listening on port 40173
+1599692482653	geckodriver	INFO	Listening on 127.0.0.1:38991
+1599692482662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWHfdcs"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599692483983	Marionette	INFO	Listening on port 37329
+1599692484067	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:54241): GLib-GObject-CRITICAL **: 20:01:35.274: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599692504437	Marionette	INFO	Stopped listening on port 37329
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1599692505477	geckodriver	INFO	Listening on 127.0.0.1:41831
+1599692505491	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilej2HOhF"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599692507003	Marionette	INFO	Listening on port 33457
+1599692507171	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:54482): GLib-GObject-CRITICAL **: 20:01:56.166: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599692525269	Marionette	INFO	Stopped listening on port 33457
+1599778806356	geckodriver	INFO	Listening on 127.0.0.1:42763
+1599778806361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileysm5Vt"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599778808162	Marionette	INFO	Listening on port 33429
+1599778808168	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:12790): GLib-GObject-CRITICAL **: 20:00:48.414: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599778861234	Marionette	INFO	Stopped listening on port 33429
+1599778881347	geckodriver	INFO	Listening on 127.0.0.1:60475
+1599778881356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilem45J0y"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599778882753	Marionette	INFO	Listening on port 42327
+1599778882762	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:13031): GLib-GObject-CRITICAL **: 20:01:34.242: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599778903309	Marionette	INFO	Stopped listening on port 42327
+1599778904209	geckodriver	INFO	Listening on 127.0.0.1:35671
+1599778904219	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLZgsmR"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599778905695	Marionette	INFO	Listening on port 35525
+1599778905723	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:13292): GLib-GObject-CRITICAL **: 20:01:55.093: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599778924194	Marionette	INFO	Stopped listening on port 35525

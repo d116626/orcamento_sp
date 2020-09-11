@@ -1,0 +1,101 @@
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+START
+Traceback (most recent call last):
+  File "run.py", line 47, in <module>
+    main()
+  File "run.py", line 43, in main
+    upload_bigQuerry()
+  File "run.py", line 19, in upload_bigQuerry
+    df = io.get_orcamento_executado()
+  File "../scripts/io.py", line 90, in get_orcamento_executado
+    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
+
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.41it/s]1it [00:14, 14.47s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.53s/it]
+0it [00:00, ?it/s]1it [00:05,  5.54s/it]
+0it [00:00, ?it/s]1it [00:05,  5.31s/it]
+START
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.41it/s]1it [00:11, 11.64s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.63s/it]
+0it [00:00, ?it/s]1it [00:05,  5.40s/it]
+0it [00:00, ?it/s]1it [00:04,  4.14s/it]
+START
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.29it/s]1it [00:13, 13.09s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.74s/it]
+0it [00:00, ?it/s]1it [00:06,  6.20s/it]
+0it [00:00, ?it/s]1it [00:03,  3.71s/it]
+START
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+START
+Traceback (most recent call last):
+  File "run.py", line 53, in <module>
+    main()
+  File "run.py", line 48, in main
+    upload_bigQuerry()
+  File "run.py", line 20, in upload_bigQuerry
+    df = io.get_orcamento_executado()
+  File "../scripts/io.py", line 90, in get_orcamento_executado
+    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
+
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.40it/s]1it [00:13, 13.66s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:05,  5.80s/it]
+0it [00:00, ?it/s]1it [00:04,  4.87s/it]
+0it [00:00, ?it/s]1it [00:05,  5.24s/it]
+START
+2020-09-09
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.33it/s]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:06,  6.46s/it]
+0it [00:00, ?it/s]1it [00:05,  5.56s/it]
+0it [00:00, ?it/s]1it [00:05,  5.78s/it]
+START
+2020-09-10
+DONE!
