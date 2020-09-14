@@ -1156,3 +1156,55 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 
 (firefox:13292): GLib-GObject-CRITICAL **: 20:01:55.093: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1599778924194	Marionette	INFO	Stopped listening on port 35525
+1599912315762	geckodriver	INFO	Listening on 127.0.0.1:56695
+1599912315767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileG9rxJs"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599912317162	Marionette	INFO	Listening on port 45735
+1599912317171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599948303086	geckodriver	INFO	Listening on 127.0.0.1:44271
+1599948303096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerbHLT2"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599948304439	Marionette	INFO	Listening on port 42989
+1599948304500	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:14502): GLib-GObject-CRITICAL **: 19:06:05.449: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599948372323	Marionette	INFO	Stopped listening on port 42989
+1599948399113	geckodriver	INFO	Listening on 127.0.0.1:57065
+1599948399174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWhlmKD"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599948400529	Marionette	INFO	Listening on port 37127
+1599948400579	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:14757): GLib-GObject-CRITICAL **: 19:06:57.544: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599948426076	Marionette	INFO	Stopped listening on port 37127
+1599948427152	geckodriver	INFO	Listening on 127.0.0.1:54689
+1599948427161	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilep0nrjk"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599948428415	Marionette	INFO	Listening on port 37573
+1599948428466	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:14986): GLib-GObject-CRITICAL **: 19:07:25.690: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1599948451728	Marionette	INFO	Stopped listening on port 37573
+1600034709638	geckodriver	INFO	Listening on 127.0.0.1:58879
+1600034709643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKcjbOI"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600034710843	Marionette	INFO	Listening on port 46015
+1600034710886	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:19671): GLib-GObject-CRITICAL **: 19:06:08.734: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1600034771779	Marionette	INFO	Stopped listening on port 46015
+1600034796394	geckodriver	INFO	Listening on 127.0.0.1:44545
+1600034796403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileflMgXQ"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600034797877	Marionette	INFO	Listening on port 41633
+1600034797907	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600034826511	Marionette	INFO	Stopped listening on port 41633
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
