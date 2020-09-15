@@ -159,3 +159,62 @@ Traceback (most recent call last):
     self._reader = parsers.TextReader(src, **kwds)
   File "pandas/_libs/parsers.pyx", line 532, in pandas._libs.parsers.TextReader.__cinit__
 pandas.errors.EmptyDataError: No columns to parse from file
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+START
+Traceback (most recent call last):
+  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 232, in _error_catcher
+    yield
+  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 314, in read
+    data = self._fp.read(amt)
+  File "/home/m/anaconda3/lib/python3.7/http/client.py", line 457, in read
+    n = self.readinto(b)
+  File "/home/m/anaconda3/lib/python3.7/http/client.py", line 501, in readinto
+    n = self.fp.readinto(b)
+  File "/home/m/anaconda3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/home/m/anaconda3/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/m/anaconda3/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/models.py", line 676, in generate
+    for chunk in self.raw.stream(chunk_size, decode_content=True):
+  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 357, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 324, in read
+    flush_decoder = True
+  File "/home/m/anaconda3/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 250, in _error_catcher
+    raise ProtocolError('Connection broken: %r' % e, e)
+requests.packages.urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "run.py", line 53, in <module>
+    main()
+  File "run.py", line 48, in main
+    upload_bigQuerry()
+  File "run.py", line 20, in upload_bigQuerry
+    df = io.get_orcamento_executado()
+  File "../scripts/io.py", line 50, in get_orcamento_executado
+    firefox = webdriver.Firefox(options=options,firefox_profile=profile, executable_path = GeckoDriverManager().install())
+  File "/home/m/anaconda3/lib/python3.7/site-packages/webdriver_manager/firefox.py", line 28, in install
+    return self._get_driver_path(self.driver)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/webdriver_manager/manager.py", line 29, in _get_driver_path
+    file = download_file(driver.get_url())
+  File "/home/m/anaconda3/lib/python3.7/site-packages/webdriver_manager/utils.py", line 94, in download_file
+    return File(response)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/webdriver_manager/utils.py", line 16, in __init__
+    self.content = stream.content
+  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/models.py", line 755, in content
+    self._content = bytes().join(self.iter_content(CONTENT_CHUNK_SIZE)) or bytes()
+  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/models.py", line 679, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
