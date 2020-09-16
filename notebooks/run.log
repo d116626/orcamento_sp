@@ -241,3 +241,28 @@ Traceback (most recent call last):
     raise exception_class(message, screen, stacktrace)
 selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
 
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+START
+Traceback (most recent call last):
+  File "run.py", line 53, in <module>
+    main()
+  File "run.py", line 48, in main
+    upload_bigQuerry()
+  File "run.py", line 20, in upload_bigQuerry
+    df = io.get_orcamento_executado()
+  File "../scripts/io.py", line 98, in get_orcamento_executado
+    df = pd.read_csv(path+'/{}_orcamento_{}.csv'.format(today, year), encoding='windows-1254')
+  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 532, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
