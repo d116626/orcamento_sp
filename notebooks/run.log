@@ -394,3 +394,26 @@ selenium.common.exceptions.NoSuchElementException: Message: Unable to locate ele
 START
 2020-09-26
 DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+START
+Traceback (most recent call last):
+  File "run.py", line 53, in <module>
+    main()
+  File "run.py", line 48, in main
+    upload_bigQuerry()
+  File "run.py", line 20, in upload_bigQuerry
+    df = io.get_orcamento_executado()
+  File "../scripts/io.py", line 90, in get_orcamento_executado
+    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
+
