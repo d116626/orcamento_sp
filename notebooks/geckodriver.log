@@ -1387,3 +1387,30 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
 1601244308917	Marionette	INFO	Listening on port 46083
 1601244308966	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601263133244	geckodriver	INFO	Listening on 127.0.0.1:40219
+1601263133249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMMTazR"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601263134784	Marionette	INFO	Listening on port 37297
+1601263134950	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:28670): GLib-GObject-CRITICAL **: 00:20:08.601: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1601263216964	Marionette	INFO	Stopped listening on port 37297
+1601263238460	geckodriver	INFO	Listening on 127.0.0.1:55079
+1601263238465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevC2sGS"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601263239919	Marionette	INFO	Listening on port 34401
+1601263239969	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:31259): GLib-GObject-CRITICAL **: 00:20:54.428: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1601263263252	Marionette	INFO	Stopped listening on port 34401
+1601263274073	geckodriver	INFO	Listening on 127.0.0.1:51729
+1601263274086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevdzUjU"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601263275515	Marionette	INFO	Listening on port 43195
+1601263275590	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:32641): GLib-GObject-CRITICAL **: 00:21:24.900: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1601263294036	Marionette	INFO	Stopped listening on port 43195
