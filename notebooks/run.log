@@ -559,3 +559,13 @@ DONE!
 START
 2020-10-07
 DONE!
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:00,  2.38it/s]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:07,  7.36s/it]
+0it [00:00, ?it/s]1it [00:04,  4.40s/it]
+0it [00:00, ?it/s]1it [00:22, 22.58s/it]
+START
+2020-10-08
+DONE!
