@@ -569,3 +569,39 @@ DONE!
 START
 2020-10-08
 DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.26it/s]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.33s/it]
+0it [00:00, ?it/s]1it [00:04,  4.48s/it]
+0it [00:00, ?it/s]1it [00:04,  4.73s/it]
+START
+2020-10-09
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.41it/s]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:03,  3.95s/it]
+0it [00:00, ?it/s]1it [00:04,  4.73s/it]
+0it [00:00, ?it/s]1it [00:05,  5.43s/it]
+START
+2020-10-11
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.20it/s]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:05,  5.13s/it]
+0it [00:00, ?it/s]1it [00:04,  4.63s/it]
+0it [00:00, ?it/s]1it [00:05,  5.11s/it]
+START
+2020-10-12
+DONE!
