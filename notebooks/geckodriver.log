@@ -1782,3 +1782,9 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 
 (firefox:93918): GLib-GObject-CRITICAL **: 19:07:04.925: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1602626834124	Marionette	INFO	Stopped listening on port 34841
+1602713106879	geckodriver	INFO	Listening on 127.0.0.1:49947
+1602713106884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLcss56"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602713108657	Marionette	INFO	Listening on port 33279
+1602713108689	Marionette	WARN	TLS certificate errors will be ignored for this session
