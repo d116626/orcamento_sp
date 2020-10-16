@@ -640,3 +640,15 @@ Traceback (most recent call last):
     raise exception_class(message, screen, stacktrace)
 selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
 
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.09it/s]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.64s/it]
+0it [00:00, ?it/s]1it [00:03,  3.88s/it]
+0it [00:00, ?it/s]1it [00:03,  3.74s/it]
+START
+2020-10-15
+DONE!
