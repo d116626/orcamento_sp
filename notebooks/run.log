@@ -1,726 +1,0 @@
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-START
-Traceback (most recent call last):
-  File "run.py", line 47, in <module>
-    main()
-  File "run.py", line 43, in main
-    upload_bigQuerry()
-  File "run.py", line 19, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.41it/s]1it [00:14, 14.47s/it]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.53s/it]
-0it [00:00, ?it/s]1it [00:05,  5.54s/it]
-0it [00:00, ?it/s]1it [00:05,  5.31s/it]
-START
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.41it/s]1it [00:11, 11.64s/it]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.63s/it]
-0it [00:00, ?it/s]1it [00:05,  5.40s/it]
-0it [00:00, ?it/s]1it [00:04,  4.14s/it]
-START
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.29it/s]1it [00:13, 13.09s/it]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.74s/it]
-0it [00:00, ?it/s]1it [00:06,  6.20s/it]
-0it [00:00, ?it/s]1it [00:03,  3.71s/it]
-START
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.40it/s]1it [00:13, 13.66s/it]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:05,  5.80s/it]
-0it [00:00, ?it/s]1it [00:04,  4.87s/it]
-0it [00:00, ?it/s]1it [00:05,  5.24s/it]
-START
-2020-09-09
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.33it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:06,  6.46s/it]
-0it [00:00, ?it/s]1it [00:05,  5.56s/it]
-0it [00:00, ?it/s]1it [00:05,  5.78s/it]
-START
-2020-09-10
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:00,  2.64it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:06,  6.52s/it]
-0it [00:00, ?it/s]1it [00:04,  4.51s/it]
-0it [00:00, ?it/s]1it [00:06,  6.01s/it]
-START
-2020-09-12
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.29it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 29, in upload_bigQuerry
-    previsto = io.get_orcamento_receita('previsto')
-  File "../scripts/io.py", line 215, in get_orcamento_receita
-    df = pd.read_csv(path+'/{}_orcamento_{}.csv'.format(today, year), encoding='windows-1254')
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 676, in parser_f
-    return _read(filepath_or_buffer, kwds)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 448, in _read
-    parser = TextFileReader(fp_or_buf, **kwds)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 880, in __init__
-    self._make_engine(self.engine)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
-    self._engine = CParserWrapper(self.f, **self.options)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1891, in __init__
-    self._reader = parsers.TextReader(src, **kwds)
-  File "pandas/_libs/parsers.pyx", line 532, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-START
-Traceback (most recent call last):
-  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 232, in _error_catcher
-    yield
-  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 314, in read
-    data = self._fp.read(amt)
-  File "/home/m/anaconda3/lib/python3.7/http/client.py", line 457, in read
-    n = self.readinto(b)
-  File "/home/m/anaconda3/lib/python3.7/http/client.py", line 501, in readinto
-    n = self.fp.readinto(b)
-  File "/home/m/anaconda3/lib/python3.7/socket.py", line 589, in readinto
-    return self._sock.recv_into(b)
-  File "/home/m/anaconda3/lib/python3.7/ssl.py", line 1071, in recv_into
-    return self.read(nbytes, buffer)
-  File "/home/m/anaconda3/lib/python3.7/ssl.py", line 929, in read
-    return self._sslobj.read(len, buffer)
-ConnectionResetError: [Errno 104] Connection reset by peer
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/models.py", line 676, in generate
-    for chunk in self.raw.stream(chunk_size, decode_content=True):
-  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 357, in stream
-    data = self.read(amt=amt, decode_content=decode_content)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 324, in read
-    flush_decoder = True
-  File "/home/m/anaconda3/lib/python3.7/contextlib.py", line 130, in __exit__
-    self.gen.throw(type, value, traceback)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/packages/urllib3/response.py", line 250, in _error_catcher
-    raise ProtocolError('Connection broken: %r' % e, e)
-requests.packages.urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 50, in get_orcamento_executado
-    firefox = webdriver.Firefox(options=options,firefox_profile=profile, executable_path = GeckoDriverManager().install())
-  File "/home/m/anaconda3/lib/python3.7/site-packages/webdriver_manager/firefox.py", line 28, in install
-    return self._get_driver_path(self.driver)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/webdriver_manager/manager.py", line 29, in _get_driver_path
-    file = download_file(driver.get_url())
-  File "/home/m/anaconda3/lib/python3.7/site-packages/webdriver_manager/utils.py", line 94, in download_file
-    return File(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/webdriver_manager/utils.py", line 16, in __init__
-    self.content = stream.content
-  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/models.py", line 755, in content
-    self._content = bytes().join(self.iter_content(CONTENT_CHUNK_SIZE)) or bytes()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/requests/models.py", line 679, in generate
-    raise ChunkedEncodingError(e)
-requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 98, in get_orcamento_executado
-    df = pd.read_csv(path+'/{}_orcamento_{}.csv'.format(today, year), encoding='windows-1254')
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 676, in parser_f
-    return _read(filepath_or_buffer, kwds)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 448, in _read
-    parser = TextFileReader(fp_or_buf, **kwds)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 880, in __init__
-    self._make_engine(self.engine)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
-    self._engine = CParserWrapper(self.f, **self.options)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1891, in __init__
-    self._reader = parsers.TextReader(src, **kwds)
-  File "pandas/_libs/parsers.pyx", line 532, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.29it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.53s/it]
-0it [00:00, ?it/s]1it [00:04,  4.09s/it]
-0it [00:00, ?it/s]1it [00:04,  4.57s/it]
-START
-2020-09-18
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.35it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.09s/it]
-0it [00:00, ?it/s]1it [00:04,  4.45s/it]
-0it [00:00, ?it/s]1it [00:06,  6.12s/it]
-START
-2020-09-22
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 98, in get_orcamento_executado
-    df = pd.read_csv(path+'/{}_orcamento_{}.csv'.format(today, year), encoding='windows-1254')
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 676, in parser_f
-    return _read(filepath_or_buffer, kwds)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 448, in _read
-    parser = TextFileReader(fp_or_buf, **kwds)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 880, in __init__
-    self._make_engine(self.engine)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
-    self._engine = CParserWrapper(self.f, **self.options)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1891, in __init__
-    self._reader = parsers.TextReader(src, **kwds)
-  File "pandas/_libs/parsers.pyx", line 532, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.36it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:05,  5.41s/it]
-0it [00:00, ?it/s]1it [00:07,  7.46s/it]
-0it [00:00, ?it/s]1it [00:05,  5.41s/it]
-START
-2020-09-26
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.27it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:06,  6.18s/it]
-0it [00:00, ?it/s]1it [00:08,  8.19s/it]
-0it [00:00, ?it/s]1it [00:04,  4.90s/it]
-START
-2020-09-29
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 98, in get_orcamento_executado
-    df = pd.read_csv(path+'/{}_orcamento_{}.csv'.format(today, year), encoding='windows-1254')
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 676, in parser_f
-    return _read(filepath_or_buffer, kwds)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 448, in _read
-    parser = TextFileReader(fp_or_buf, **kwds)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 880, in __init__
-    self._make_engine(self.engine)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
-    self._engine = CParserWrapper(self.f, **self.options)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1891, in __init__
-    self._reader = parsers.TextReader(src, **kwds)
-  File "pandas/_libs/parsers.pyx", line 532, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.39it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:07,  7.19s/it]
-0it [00:00, ?it/s]1it [00:05,  5.24s/it]
-0it [00:00, ?it/s]1it [00:09,  9.76s/it]
-START
-2020-10-01
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.53it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:11, 11.19s/it]
-0it [00:00, ?it/s]1it [00:07,  7.03s/it]
-0it [00:00, ?it/s]1it [00:04,  4.71s/it]
-START
-2020-10-02
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  1.87it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.39s/it]
-0it [00:00, ?it/s]1it [00:04,  4.06s/it]
-0it [00:00, ?it/s]1it [00:04,  4.30s/it]
-START
-2020-10-03
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.37it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:05,  5.12s/it]
-0it [00:00, ?it/s]1it [00:04,  4.53s/it]
-0it [00:00, ?it/s]1it [00:05,  5.15s/it]
-START
-2020-10-04
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.38it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:03,  3.84s/it]
-0it [00:00, ?it/s]1it [00:04,  4.75s/it]
-0it [00:00, ?it/s]1it [00:05,  5.71s/it]
-START
-2020-10-05
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.24it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.32s/it]
-0it [00:00, ?it/s]1it [00:04,  4.42s/it]
-0it [00:00, ?it/s]1it [00:04,  4.21s/it]
-START
-2020-10-06
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.43it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:05,  5.35s/it]
-0it [00:00, ?it/s]1it [00:05,  5.27s/it]
-0it [00:00, ?it/s]1it [00:05,  5.13s/it]
-START
-2020-10-07
-DONE!
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:00,  2.38it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:07,  7.36s/it]
-0it [00:00, ?it/s]1it [00:04,  4.40s/it]
-0it [00:00, ?it/s]1it [00:22, 22.58s/it]
-START
-2020-10-08
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.26it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.33s/it]
-0it [00:00, ?it/s]1it [00:04,  4.48s/it]
-0it [00:00, ?it/s]1it [00:04,  4.73s/it]
-START
-2020-10-09
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.41it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:03,  3.95s/it]
-0it [00:00, ?it/s]1it [00:04,  4.73s/it]
-0it [00:00, ?it/s]1it [00:05,  5.43s/it]
-START
-2020-10-11
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.20it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:05,  5.13s/it]
-0it [00:00, ?it/s]1it [00:04,  4.63s/it]
-0it [00:00, ?it/s]1it [00:05,  5.11s/it]
-START
-2020-10-12
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.43it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:07,  7.45s/it]
-0it [00:00, ?it/s]1it [00:06,  6.74s/it]
-0it [00:00, ?it/s]1it [00:07,  7.25s/it]
-START
-2020-10-13
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-START
-Traceback (most recent call last):
-  File "run.py", line 53, in <module>
-    main()
-  File "run.py", line 48, in main
-    upload_bigQuerry()
-  File "run.py", line 20, in upload_bigQuerry
-    df = io.get_orcamento_executado()
-  File "../scripts/io.py", line 90, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
-    return self.find_element(by=By.NAME, value=name)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/home/m/anaconda3/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
-
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.09it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.64s/it]
-0it [00:00, ?it/s]1it [00:03,  3.88s/it]
-0it [00:00, ?it/s]1it [00:03,  3.74s/it]
-START
-2020-10-15
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.42it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:03,  3.65s/it]
-0it [00:00, ?it/s]1it [00:03,  3.80s/it]
-0it [00:00, ?it/s]1it [00:04,  4.39s/it]
-START
-2020-10-16
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.63it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:07,  7.49s/it]
-0it [00:00, ?it/s]1it [00:03,  3.73s/it]
-0it [00:00, ?it/s]1it [00:04,  4.22s/it]
-START
-2020-10-17
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.62it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:06,  6.29s/it]
-0it [00:00, ?it/s]1it [00:04,  4.92s/it]
-0it [00:00, ?it/s]1it [00:04,  4.40s/it]
-START
-2020-10-18
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.55it/s]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.08s/it]
-0it [00:00, ?it/s]1it [00:04,  4.16s/it]
-0it [00:00, ?it/s]1it [00:06,  6.12s/it]
-START
-2020-10-19
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.37it/s]1it [00:14, 14.83s/it]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:04,  4.53s/it]
-0it [00:00, ?it/s]1it [00:06,  6.52s/it]
-0it [00:00, ?it/s]1it [00:04,  4.76s/it]
-START
-2020-10-20
-DONE!
-[WDM] - Getting latest mozilla release info for v0.27.0
-[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
-[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
-0it [00:00, ?it/s]1it [00:00,  2.33it/s]1it [00:12, 12.06s/it]
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
-0it [00:00, ?it/s]1it [00:06,  6.93s/it]
-0it [00:00, ?it/s]1it [00:06,  6.68s/it]
-0it [00:00, ?it/s]1it [00:04,  4.63s/it]
-START
-2020-10-21
-DONE!

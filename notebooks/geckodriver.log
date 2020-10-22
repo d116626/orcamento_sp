@@ -1983,3 +1983,32 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 
 (firefox:153733): GLib-GObject-CRITICAL **: 19:06:59.914: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1603318028697	Marionette	INFO	Stopped listening on port 33229
+1603403447411	geckodriver	INFO	Listening on 127.0.0.1:32859
+1603403447420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCO98nm"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1603403448780	Marionette	INFO	Listening on port 45821
+1603403448846	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:4432): GLib-GObject-CRITICAL **: 18:51:58.910: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603403530381	Marionette	INFO	Stopped listening on port 45821
+1603403549303	geckodriver	INFO	Listening on 127.0.0.1:35609
+1603403549312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledfU6nw"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1603403550652	Marionette	INFO	Listening on port 41431
+1603403550757	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+
+(firefox:4982): GLib-GObject-CRITICAL **: 18:52:43.294: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603403572296	Marionette	INFO	Stopped listening on port 41431
+1603403573120	geckodriver	INFO	Listening on 127.0.0.1:57287
+1603403573125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8I1wWJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1603403574533	Marionette	INFO	Listening on port 39431
+1603403574642	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:5437): GLib-GObject-CRITICAL **: 18:53:03.402: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603403592608	Marionette	INFO	Stopped listening on port 39431
