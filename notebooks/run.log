@@ -69,3 +69,75 @@ DONE!
 START
 2020-10-27
 DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.20it/s]1it [00:22, 22.14s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.01s/it]
+0it [00:00, ?it/s]1it [00:04,  4.17s/it]
+0it [00:00, ?it/s]1it [00:04,  4.84s/it]
+START
+2020-10-28
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.32it/s]1it [00:15, 15.57s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:05,  5.42s/it]
+0it [00:00, ?it/s]1it [00:03,  3.99s/it]
+0it [00:00, ?it/s]1it [00:06,  6.55s/it]
+START
+2020-10-29
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.52it/s]1it [00:14, 14.90s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.68s/it]
+0it [00:00, ?it/s]1it [00:06,  6.67s/it]
+0it [00:00, ?it/s]1it [00:04,  4.16s/it]
+START
+2020-10-30
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.52it/s]1it [00:11, 11.61s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:05,  5.68s/it]
+0it [00:00, ?it/s]1it [00:06,  6.03s/it]
+0it [00:00, ?it/s]1it [00:03,  3.98s/it]
+START
+2020-10-31
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.55it/s]1it [00:14, 14.63s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:06,  6.34s/it]
+0it [00:00, ?it/s]1it [00:05,  5.51s/it]
+0it [00:00, ?it/s]1it [00:04,  4.61s/it]
+START
+2020-11-01
+DONE!
+[WDM] - Getting latest mozilla release info for v0.27.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodriver-v0.27.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0]
+0it [00:00, ?it/s]1it [00:00,  2.55it/s]1it [00:15, 15.96s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.27.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.53s/it]
+0it [00:00, ?it/s]1it [00:06,  6.15s/it]
+0it [00:00, ?it/s]1it [00:04,  4.58s/it]
+START
+2020-11-02
+DONE!

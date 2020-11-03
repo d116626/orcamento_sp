@@ -2126,3 +2126,165 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (firefox:85513): GLib-GObject-CRITICAL **: 19:07:06.705: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1603836435720	Marionette	INFO	Stopped listening on port 41407
+1603922707001	geckodriver	INFO	Listening on 127.0.0.1:43463
+1603922707006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePdRK5d"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1603922708576	Marionette	INFO	Listening on port 35611
+1603922708720	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:175788): GLib-GObject-CRITICAL **: 19:06:30.878: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603922798414	Marionette	INFO	Stopped listening on port 35611
+1603922832275	geckodriver	INFO	Listening on 127.0.0.1:52669
+1603922832285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqxoHNo"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1603922833828	Marionette	INFO	Listening on port 40847
+1603922833960	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:176909): GLib-GObject-CRITICAL **: 19:07:29.873: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603922858822	Marionette	INFO	Stopped listening on port 40847
+1603922859767	geckodriver	INFO	Listening on 127.0.0.1:34169
+1603922859780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNms7FD"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1603922861219	Marionette	INFO	Listening on port 36395
+1603922861299	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:177264): GLib-GObject-CRITICAL **: 19:07:51.923: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603922880598	Marionette	INFO	Stopped listening on port 36395
+1604009106727	geckodriver	INFO	Listening on 127.0.0.1:40613
+1604009106734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecBe24e"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604009108152	Marionette	INFO	Listening on port 33775
+1604009108371	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:34450): GLib-GObject-CRITICAL **: 19:05:49.010: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604009161338	Marionette	INFO	Stopped listening on port 33775
+1604009183396	geckodriver	INFO	Listening on 127.0.0.1:47107
+1604009183467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekvjC2r"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604009184873	Marionette	INFO	Listening on port 34815
+1604009184989	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:34782): GLib-GObject-CRITICAL **: 19:06:41.035: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604009210085	Marionette	INFO	Stopped listening on port 34815
+1604009210974	geckodriver	INFO	Listening on 127.0.0.1:39669
+1604009210982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTub6Wq"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604009212315	Marionette	INFO	Listening on port 39027
+1604009212407	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:34998): GLib-GObject-CRITICAL **: 19:07:01.532: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604009230770	Marionette	INFO	Stopped listening on port 39027
+1604095507119	geckodriver	INFO	Listening on 127.0.0.1:35487
+1604095507124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMhofOg"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604095508575	Marionette	INFO	Listening on port 34461
+1604095508649	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:148259): GLib-GObject-CRITICAL **: 19:06:19.399: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604095591784	Marionette	INFO	Stopped listening on port 34461
+1604095613010	geckodriver	INFO	Listening on 127.0.0.1:54113
+1604095613019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilel2WJ5Y"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604095614386	Marionette	INFO	Listening on port 33725
+1604095614439	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:148600): GLib-GObject-CRITICAL **: 19:07:11.089: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604095640337	Marionette	INFO	Stopped listening on port 33725
+1604095641222	geckodriver	INFO	Listening on 127.0.0.1:48601
+1604095641231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSflpgF"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604095642566	Marionette	INFO	Listening on port 38643
+1604095642659	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:148858): GLib-GObject-CRITICAL **: 19:07:31.814: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604095661056	Marionette	INFO	Stopped listening on port 38643
+1604181906064	geckodriver	INFO	Listening on 127.0.0.1:41543
+1604181906070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilectzGlL"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604181907398	Marionette	INFO	Listening on port 40181
+1604181907512	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:157057): GLib-GObject-CRITICAL **: 19:05:51.869: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604181961471	Marionette	INFO	Stopped listening on port 40181
+1604181978947	geckodriver	INFO	Listening on 127.0.0.1:42799
+1604181979009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZiCZjt"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604181980324	Marionette	INFO	Listening on port 42657
+1604181980459	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:157287): GLib-GObject-CRITICAL **: 19:06:37.452: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604182006192	Marionette	INFO	Stopped listening on port 42657
+1604182007087	geckodriver	INFO	Listening on 127.0.0.1:56055
+1604182007096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileER1it5"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604182008440	Marionette	INFO	Listening on port 43269
+1604182008522	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:157494): GLib-GObject-CRITICAL **: 19:06:59.097: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604182027726	Marionette	INFO	Stopped listening on port 43269
+1604268306667	geckodriver	INFO	Listening on 127.0.0.1:33855
+1604268306674	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepEkSBR"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268307995	Marionette	INFO	Listening on port 45057
+1604268308106	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:164949): GLib-GObject-CRITICAL **: 19:05:49.220: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604268360594	Marionette	INFO	Stopped listening on port 45057
+1604268381459	geckodriver	INFO	Listening on 127.0.0.1:44907
+1604268381472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVZVG6r"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268382975	Marionette	INFO	Listening on port 34671
+1604268382991	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:165178): GLib-GObject-CRITICAL **: 19:06:34.252: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604268403205	Marionette	INFO	Stopped listening on port 34671
+1604268404126	geckodriver	INFO	Listening on 127.0.0.1:36141
+1604268404138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2QBfjZ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268405475	Marionette	INFO	Listening on port 36493
+1604268405557	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:165385): GLib-GObject-CRITICAL **: 19:06:54.985: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604268423689	Marionette	INFO	Stopped listening on port 36493
+1604354706644	geckodriver	INFO	Listening on 127.0.0.1:45067
+1604354706650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSAi6hN"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604354707975	Marionette	INFO	Listening on port 46309
+1604354708094	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:173917): GLib-GObject-CRITICAL **: 19:06:16.304: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604354789460	Marionette	INFO	Stopped listening on port 46309
+1604354811230	geckodriver	INFO	Listening on 127.0.0.1:55623
+1604354811292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilen0kFeP"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604354812669	Marionette	INFO	Listening on port 43307
+1604354812710	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:174146): GLib-GObject-CRITICAL **: 19:07:05.937: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604354835053	Marionette	INFO	Stopped listening on port 43307
+1604354836001	geckodriver	INFO	Listening on 127.0.0.1:38973
+1604354836013	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO6HEtu"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604354837393	Marionette	INFO	Listening on port 33991
+1604354837451	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:174359): GLib-GObject-CRITICAL **: 19:07:26.788: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1604354855786	Marionette	INFO	Stopped listening on port 33991
