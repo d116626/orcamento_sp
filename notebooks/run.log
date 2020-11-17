@@ -310,3 +310,15 @@ DONE!
 START
 2020-11-16
 DONE!
+[WDM] - Getting latest mozilla release info for v0.28.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.28.0/geckodriver-v0.28.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0]
+0it [00:00, ?it/s]1it [00:00,  2.34it/s]1it [00:21, 21.41s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.85s/it]
+0it [00:00, ?it/s]1it [00:04,  4.37s/it]
+0it [00:00, ?it/s]1it [00:08,  8.08s/it]
+START
+2020-11-17
+DONE!
