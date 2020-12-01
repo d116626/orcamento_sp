@@ -2936,3 +2936,30 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (firefox:13127): GLib-GObject-CRITICAL **: 19:07:16.954: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1606774046199	Marionette	INFO	Stopped listening on port 46165
+1606860307499	geckodriver	INFO	Listening on 127.0.0.1:59145
+1606860307503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7ZOXmP"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606860308842	Marionette	INFO	Listening on port 33175
+1606860308986	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:41171): GLib-GObject-CRITICAL **: 19:05:54.336: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1606860364332	Marionette	INFO	Stopped listening on port 33175
+1606860385345	geckodriver	INFO	Listening on 127.0.0.1:36085
+1606860385397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOxh74p"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606860386709	Marionette	INFO	Listening on port 46445
+1606860386835	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:41400): GLib-GObject-CRITICAL **: 19:06:43.971: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1606860412858	Marionette	INFO	Stopped listening on port 46445
+1606860413783	geckodriver	INFO	Listening on 127.0.0.1:60745
+1606860413792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8nJdQ7"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606860415138	Marionette	INFO	Listening on port 39005
+1606860415215	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:41613): GLib-GObject-CRITICAL **: 19:07:05.475: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1606860434073	Marionette	INFO	Stopped listening on port 39005
