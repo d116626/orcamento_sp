@@ -716,3 +716,93 @@ START
 0it [00:00, ?it/s]1it [00:07,  7.08s/it]
 2020-12-07
 DONE!
+START
+
+-------------------------------------------------------------------------------
+connection.py 158 _new_conn
+conn = connection.create_connection(
+
+connection.py 57 create_connection
+for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+
+socket.py 918 getaddrinfo
+for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+
+socket.gaierror:
+-3
+Temporary failure in name resolution
+
+-------------------------------------------------------------------------------
+connectionpool.py 597 urlopen
+httplib_response = self._make_request(conn, method, url,
+
+connectionpool.py 343 _make_request
+self._validate_conn(conn)
+
+connectionpool.py 839 _validate_conn
+conn.connect()
+
+connection.py 301 connect
+conn = self._new_conn()
+
+connection.py 167 _new_conn
+raise NewConnectionError(
+
+urllib3.exceptions.NewConnectionError:
+<urllib3.connection.VerifiedHTTPSConnection object at 0x7fb181731f40>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+-------------------------------------------------------------------------------
+adapters.py 439 send
+resp = conn.urlopen(
+
+connectionpool.py 637 urlopen
+retries = retries.increment(method, url, error=e, _pool=self,
+
+retry.py 399 increment
+raise MaxRetryError(_pool, url, error or ResponseError(cause))
+
+urllib3.exceptions.MaxRetryError:
+HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/mozilla/geckodriver/releases/latest (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fb181731f40>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+-------------------------------------------------------------------------------
+run.py 53 <module>
+main()
+
+run.py 48 main
+upload_bigQuerry()
+
+run.py 20 upload_bigQuerry
+df = io.get_orcamento_executado()
+
+io.py 50 get_orcamento_executado
+firefox = webdriver.Firefox(options=options,firefox_profile=profile, executable_path = GeckoDriverManager().install())
+
+firefox.py 28 install
+return self._get_driver_path(self.driver)
+
+manager.py 22 _get_driver_path
+driver_version = driver.get_version()
+
+driver.py 40 get_version
+return self.get_latest_release_version()
+
+driver.py 87 get_latest_release_version
+resp = requests.get(url=self.latest_release_url,
+
+api.py 76 get
+return request('get', url, params=params, **kwargs)
+
+api.py 61 request
+return session.request(method=method, url=url, **kwargs)
+
+sessions.py 530 request
+resp = self.send(prep, **send_kwargs)
+
+sessions.py 643 send
+r = adapter.send(request, **kwargs)
+
+adapters.py 516 send
+raise ConnectionError(e, request=request)
+
+requests.exceptions.ConnectionError:
+HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/mozilla/geckodriver/releases/latest (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fb181731f40>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
