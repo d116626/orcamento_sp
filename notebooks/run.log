@@ -910,3 +910,56 @@ selenium.common.exceptions.NoSuchElementException:
 Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
 None
 None
+START
+[WDM] - Getting latest mozilla release info for v0.28.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.28.0/geckodriver-v0.28.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0]
+0it [00:00, ?it/s]1it [00:00,  2.59it/s]1it [00:22, 22.75s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0/geckodriver] found in cache
+
+-------------------------------------------------------------------------------
+run.py 53 <module>
+main()
+
+run.py 48 main
+upload_bigQuerry()
+
+run.py 32 upload_bigQuerry
+io.to_gbq(previsto,'receita_previsto_2020','orcamento','gabinete-sv', if_exists='replace')
+
+io.py 283 to_gbq
+credentials = _get_credentials_gbq(),
+
+io.py 257 _get_credentials_gbq
+credentials = pydata_google_auth.get_user_credentials(
+
+auth.py 245 get_user_credentials
+credentials = credentials_cache.load()
+
+cache.py 190 load
+return _load_user_credentials_from_file(self._path)
+
+cache.py 88 _load_user_credentials_from_file
+return _load_user_credentials_from_info(credentials_json)
+
+cache.py 53 _load_user_credentials_from_info
+credentials.refresh(request)
+
+credentials.py 200 refresh
+access_token, refresh_token, expiry, grant_response = _client.refresh_grant(
+
+_client.py 248 refresh_grant
+response_data = _token_endpoint_request(request, token_uri, body)
+
+_client.py 105 _token_endpoint_request
+response = request(method="POST", url=token_uri, headers=headers, body=body)
+
+requests.py 188 __call__
+six.raise_from(new_exc, caught_exc)
+
+<string> 3 raise_from
+
+
+google.auth.exceptions.TransportError:
+HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f6a93c8dfd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
