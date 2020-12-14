@@ -963,3 +963,15 @@ six.raise_from(new_exc, caught_exc)
 
 google.auth.exceptions.TransportError:
 HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f6a93c8dfd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+START
+[WDM] - Getting latest mozilla release info for v0.28.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.28.0/geckodriver-v0.28.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0]
+0it [00:00, ?it/s]1it [00:00,  2.14it/s]1it [00:38, 38.06s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:04,  4.86s/it]
+0it [00:00, ?it/s]1it [00:04,  4.34s/it]
+0it [00:00, ?it/s]1it [00:05,  5.94s/it]
+2020-12-14
+DONE!

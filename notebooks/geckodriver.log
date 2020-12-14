@@ -3158,3 +3158,34 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (firefox:114079): GLib-GObject-CRITICAL **: 19:07:10.415: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1607897239205	Marionette	INFO	Stopped listening on port 46005
+1607983507011	geckodriver	INFO	Listening on 127.0.0.1:32935
+1607983507015	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNzuXY7"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607983508410	Marionette	INFO	Listening on port 40621
+1607983508434	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:43006): GLib-GObject-CRITICAL **: 19:05:59.668: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1607983568852	Marionette	INFO	Stopped listening on port 40621
+1607983613729	geckodriver	INFO	Listening on 127.0.0.1:49535
+1607983613752	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegSKsjt"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607983615099	Marionette	INFO	Listening on port 39771
+1607983615203	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+
+(firefox:43402): GLib-GObject-CRITICAL **: 19:07:53.628: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1607983681752	Marionette	INFO	Stopped listening on port 39771
+1607983689849	geckodriver	INFO	Listening on 127.0.0.1:39453
+1607983689862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile70XGwz"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607983691195	Marionette	INFO	Listening on port 36217
+1607983691288	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+
+(firefox:43631): GLib-GObject-CRITICAL **: 19:09:27.139: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1607983775568	Marionette	INFO	Stopped listening on port 36217
