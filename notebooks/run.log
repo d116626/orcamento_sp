@@ -1009,3 +1009,41 @@ selenium.common.exceptions.NoSuchElementException:
 Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
 None
 None
+START
+[WDM] - Getting latest mozilla release info for v0.28.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.28.0/geckodriver-v0.28.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.28.0]
+
+-------------------------------------------------------------------------------
+run.py 53 <module>
+main()
+
+run.py 48 main
+upload_bigQuerry()
+
+run.py 20 upload_bigQuerry
+df = io.get_orcamento_executado()
+
+io.py 98 get_orcamento_executado
+df = pd.read_csv(path+'/{}_orcamento_{}.csv'.format(today, year), encoding='windows-1254')
+
+parsers.py 686 read_csv
+return _read(filepath_or_buffer, kwds)
+
+parsers.py 452 _read
+parser = TextFileReader(fp_or_buf, **kwds)
+
+parsers.py 946 __init__
+self._make_engine(self.engine)
+
+parsers.py 1178 _make_engine
+self._engine = CParserWrapper(self.f, **self.options)
+
+parsers.py 2008 __init__
+self._reader = parsers.TextReader(src, **kwds)
+
+parsers.pyx 540 pandas._libs.parsers.TextReader.__cinit__
+
+
+pandas.errors.EmptyDataError:
+No columns to parse from file

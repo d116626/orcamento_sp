@@ -3195,3 +3195,10 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1608069908971	Marionette	INFO	Listening on port 37925
 1608069909016	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608156308208	geckodriver	INFO	Listening on 127.0.0.1:50297
+1608156308212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKSRSqQ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608156309457	Marionette	INFO	Listening on port 39785
+1608156309555	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608156370268	Marionette	INFO	Stopped listening on port 39785
