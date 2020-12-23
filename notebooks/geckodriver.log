@@ -3274,3 +3274,28 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 (/usr/lib/firefox/firefox:21278): GLib-GObject-WARNING **: 19:05:15.176: invalid (NULL) pointer instance
 
 (/usr/lib/firefox/firefox:21278): GLib-GObject-CRITICAL **: 19:05:15.176: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1608761114766	geckodriver	INFO	Listening on 127.0.0.1:33203
+1608761114770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTQ3zaf"
+*** You are running in headless mode.
+
+(firefox:5700): GLib-GObject-WARNING **: 19:05:14.991: invalid (NULL) pointer instance
+
+(firefox:5700): GLib-GObject-CRITICAL **: 19:05:14.991: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:5758): GLib-GObject-WARNING **: 19:05:15.329: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:5758): GLib-GObject-CRITICAL **: 19:05:15.329: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:5780): GLib-GObject-WARNING **: 19:05:15.449: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:5780): GLib-GObject-CRITICAL **: 19:05:15.449: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608761116088	Marionette	INFO	Listening on port 36007
+1608761116223	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5862): GLib-GObject-WARNING **: 19:05:16.323: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:5862): GLib-GObject-CRITICAL **: 19:05:16.323: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(firefox:5700): GLib-GObject-CRITICAL **: 19:06:48.439: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1608761216609	Marionette	INFO	Stopped listening on port 36007
