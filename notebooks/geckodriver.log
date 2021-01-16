@@ -3674,3 +3674,31 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (firefox:30907): GLib-GObject-CRITICAL **: 19:06:08.837: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1610661976695	Marionette	INFO	Stopped listening on port 37691
+1610748302726	geckodriver	INFO	Listening on 127.0.0.1:57165
+1610748302737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile893Ylv"
+*** You are running in headless mode.
+
+(firefox:45506): GLib-GObject-WARNING **: 19:05:03.011: invalid (NULL) pointer instance
+
+(firefox:45506): GLib-GObject-CRITICAL **: 19:05:03.011: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:45578): GLib-GObject-WARNING **: 19:05:03.394: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:45578): GLib-GObject-CRITICAL **: 19:05:03.395: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:45599): GLib-GObject-WARNING **: 19:05:03.521: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:45599): GLib-GObject-CRITICAL **: 19:05:03.522: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610748304143	Marionette	INFO	Listening on port 35641
+1610748304283	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:45678): GLib-GObject-WARNING **: 19:05:04.348: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:45678): GLib-GObject-CRITICAL **: 19:05:04.348: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(firefox:45506): GLib-GObject-CRITICAL **: 19:05:49.134: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1610748359304	Marionette	INFO	Stopped listening on port 35641
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
