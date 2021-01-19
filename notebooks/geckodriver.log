@@ -3752,3 +3752,25 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1611007506959	geckodriver	INFO	Listening on 127.0.0.1:38611
+1611007507984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOf69i4"
+*** You are running in headless mode.
+
+(firefox:8880): GLib-GObject-WARNING **: 19:05:08.257: invalid (NULL) pointer instance
+
+(firefox:8880): GLib-GObject-CRITICAL **: 19:05:08.257: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:8969): GLib-GObject-WARNING **: 19:05:08.635: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:8969): GLib-GObject-CRITICAL **: 19:05:08.635: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:9001): GLib-GObject-WARNING **: 19:05:08.814: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:9001): GLib-GObject-CRITICAL **: 19:05:08.815: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611007509584	Marionette	INFO	Listening on port 34241
+1611007509610	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9080): GLib-GObject-WARNING **: 19:05:09.700: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:9080): GLib-GObject-CRITICAL **: 19:05:09.700: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
