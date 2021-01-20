@@ -1630,3 +1630,37 @@ selenium.common.exceptions.NoSuchElementException:
 Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
 None
 None
+START
+[WDM] - Getting latest mozilla release info for v0.29.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.0/geckodriver-v0.29.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.0]
+
+-------------------------------------------------------------------------------
+run.py 53 <module>
+main()
+
+run.py 48 main
+upload_bigQuerry()
+
+run.py 20 upload_bigQuerry
+df = io.get_orcamento_executado()
+
+io.py 90 get_orcamento_executado
+firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
+
+webdriver.py 496 find_element_by_name
+return self.find_element(by=By.NAME, value=name)
+
+webdriver.py 976 find_element
+return self.execute(Command.FIND_ELEMENT, {
+
+webdriver.py 321 execute
+self.error_handler.check_response(response)
+
+errorhandler.py 242 check_response
+raise exception_class(message, screen, stacktrace)
+
+selenium.common.exceptions.NoSuchElementException:
+Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
+None
+None
