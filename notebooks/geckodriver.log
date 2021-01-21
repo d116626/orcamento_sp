@@ -3796,3 +3796,28 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 (/usr/lib/firefox/firefox:40219): GLib-GObject-WARNING **: 19:05:09.716: invalid (NULL) pointer instance
 
 (/usr/lib/firefox/firefox:40219): GLib-GObject-CRITICAL **: 19:05:09.717: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611180307294	geckodriver	INFO	Listening on 127.0.0.1:59135
+1611180307299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6dEI8j"
+*** You are running in headless mode.
+
+(firefox:151304): GLib-GObject-WARNING **: 19:05:07.590: invalid (NULL) pointer instance
+
+(firefox:151304): GLib-GObject-CRITICAL **: 19:05:07.590: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:151392): GLib-GObject-WARNING **: 19:05:08.091: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:151392): GLib-GObject-CRITICAL **: 19:05:08.092: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:151413): GLib-GObject-WARNING **: 19:05:08.259: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:151413): GLib-GObject-CRITICAL **: 19:05:08.260: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611180309106	Marionette	INFO	Listening on port 46013
+
+(/usr/lib/firefox/firefox:151490): GLib-GObject-WARNING **: 19:05:09.185: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:151490): GLib-GObject-CRITICAL **: 19:05:09.185: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611180309227	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:151304): GLib-GObject-CRITICAL **: 19:05:57.771: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1611180367095	Marionette	INFO	Stopped listening on port 46013
