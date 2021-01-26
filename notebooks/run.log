@@ -1756,3 +1756,26 @@ FileNotFoundError:
 No such file or directory
 /mnt/AEB0CCA7B0CC777D/Jlab/gabinete_sv/orcamento_sp/data/orcamento/2020/executado/gdvDespesasExcel.csv
 /mnt/AEB0CCA7B0CC777D/Jlab/gabinete_sv/orcamento_sp/data/orcamento/2020/executado/2021-01-24_orcamento_2020.csv
+START
+[WDM] - Getting latest mozilla release info for v0.29.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.0/geckodriver-v0.29.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.0]
+
+-------------------------------------------------------------------------------
+run.py 53 <module>
+main()
+
+run.py 48 main
+upload_bigQuerry()
+
+run.py 20 upload_bigQuerry
+df = io.get_orcamento_executado()
+
+io.py 96 get_orcamento_executado
+os.rename(path+'/gdvDespesasExcel.csv', path+'/{}_orcamento_{}.csv'.format(today, year))
+
+FileNotFoundError:
+2
+No such file or directory
+/mnt/AEB0CCA7B0CC777D/Jlab/gabinete_sv/orcamento_sp/data/orcamento/2020/executado/gdvDespesasExcel.csv
+/mnt/AEB0CCA7B0CC777D/Jlab/gabinete_sv/orcamento_sp/data/orcamento/2020/executado/2021-01-25_orcamento_2020.csv
