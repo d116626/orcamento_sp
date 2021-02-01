@@ -4037,3 +4037,28 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 (/usr/lib/firefox/firefox:12868): GLib-GObject-WARNING **: 19:08:04.688: invalid (NULL) pointer instance
 
 (/usr/lib/firefox/firefox:12868): GLib-GObject-CRITICAL **: 19:08:04.688: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1612130705311	geckodriver	INFO	Listening on 127.0.0.1:32949
+1612130706320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZvx6m0"
+*** You are running in headless mode.
+
+(firefox:56258): GLib-GObject-WARNING **: 19:05:06.566: invalid (NULL) pointer instance
+
+(firefox:56258): GLib-GObject-CRITICAL **: 19:05:06.567: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:56334): GLib-GObject-WARNING **: 19:05:06.978: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:56334): GLib-GObject-CRITICAL **: 19:05:06.978: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:56355): GLib-GObject-WARNING **: 19:05:07.118: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:56355): GLib-GObject-CRITICAL **: 19:05:07.118: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612130707763	Marionette	INFO	Listening on port 39435
+1612130707840	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:56435): GLib-GObject-WARNING **: 19:05:07.939: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:56435): GLib-GObject-CRITICAL **: 19:05:07.939: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(firefox:56258): GLib-GObject-CRITICAL **: 19:05:56.592: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1612130765911	Marionette	INFO	Stopped listening on port 39435
