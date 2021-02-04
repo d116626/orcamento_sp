@@ -4100,3 +4100,19 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1612303509208	Marionette	WARN	TLS certificate errors will be ignored for this session
 1612303509216	Marionette	ERROR	[15] No reply from Marionette:Register
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612389905646	geckodriver	INFO	Listening on 127.0.0.1:35995
+1612389906666	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiL2zSz"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libGLESv2 glGetString returned null
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1c8c
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612389907894	Marionette	INFO	Listening on port 42667
+1612389908020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612389908032	Marionette	ERROR	[15] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:20878): GLib-GObject-CRITICAL **: 19:05:57.206: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1612389965795	Marionette	INFO	Stopped listening on port 42667
