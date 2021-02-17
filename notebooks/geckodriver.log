@@ -4315,3 +4315,4 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1613513108666	Marionette	WARN	TLS certificate errors will be ignored for this session
 1613513108674	Marionette	ERROR	[15] No reply from Marionette:Register
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
