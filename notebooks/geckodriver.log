@@ -4692,3 +4692,6 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (firefox:58174): GLib-GObject-CRITICAL **: 02:46:49.650: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1614664073496	Marionette	INFO	Stopped listening on port 38241
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
