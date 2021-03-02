@@ -15,17 +15,20 @@ import datetime
 def upload_bigQuerry():
 
     ##DESPESA
-    df = io.get_orcamento_executado()
+    io.get_orcamento_executado()
     df = pd.read_csv("../data/orcamento/2020/executado/last_data.csv")
 
     df["atual_por_inicial"] = df["dotacao_atual"] / df["dotacao_inicial"]
     df["pago_por_dotacao_atual"] = df["pago"] / df["dotacao_atual"]
 
     io.to_gbq(df, "orcamento_2020", "orcamento", "gabinete-sv", if_exists="replace")
-
+    print("\n")
     ##RECEITA
-    previsto = io.get_orcamento_receita("previsto")
-    arrecadado = io.get_orcamento_receita("arrecadado")
+    io.get_orcamento_receita("previsto")
+    io.get_orcamento_receita("arrecadado")
+
+    previsto = pd.read_csv("../data/orcamento/2020/receita/previsto/last_data.csv")
+    arrecadado = pd.read_csv("../data/orcamento/2020/receita/arrecadado//last_data.csv")
 
     io.to_gbq(
         previsto,

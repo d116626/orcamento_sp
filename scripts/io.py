@@ -21,10 +21,10 @@ import glob
 def get_orcamento_executado():
     today = datetime.datetime.today().strftime("%Y-%m-%d")
     ano = int(datetime.datetime.today().strftime("%Y"))
-    years = [str(i) for i in range(ano, ano + 1)]
+    years = [str(i) for i in range(2020, ano + 1)]
 
     for year in years:
-
+        print("execucao : ", year)
         path = os.getcwd()
 
         year_path = path.split("notebooks")[0] + f"data/orcamento/{year}"
@@ -152,21 +152,19 @@ def get_orcamento_executado():
             encoding="utf-8",
             index=False,
         )
-
-        return df
+        print("\n")
 
 
 def get_orcamento_receita(tipo):
     today = datetime.datetime.today().strftime("%Y-%m-%d")
     ano = int(datetime.datetime.today().strftime("%Y"))
-    years = [str(i) for i in range(ano, ano + 1)]
+    years = [str(i) for i in range(2020, ano + 1)]
 
     i = 0 if tipo == "previsto" else 1
     # firefox = webdriver.Firefox()
     url = "https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsReceita.aspx"
-
     for year in years:
-
+        print("receita - ", tipo, ": ", year)
         path = os.getcwd()
 
         year_path = path.split("notebooks")[0] + f"data/orcamento/{year}"
@@ -295,8 +293,7 @@ def get_orcamento_receita(tipo):
             encoding="utf-8",
             index=False,
         )
-
-    return df
+    print("\n")
 
 
 def _get_credentials_gbq():
