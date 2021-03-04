@@ -14,7 +14,7 @@ import gspread
 from gcloud import storage
 from google.oauth2 import service_account
 from oauth2client.service_account import ServiceAccountCredentials
-import manipulate
+from scripts import manipulate
 import glob
 
 
