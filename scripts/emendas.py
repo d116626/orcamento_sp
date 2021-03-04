@@ -16,6 +16,7 @@ def tables_to_df(dd):
 def put_in_order(df):
     df = df.copy()
     outros_cols = [
+        "ano",
         "parlamentar",
         "entidade_beneficiada",
         "municipio",
@@ -25,6 +26,7 @@ def put_in_order(df):
         "valor",
     ]
     saude_cols = [
+        "ano",
         "parlamentar",
         "entidade_beneficiada",
         "municipio",
@@ -35,7 +37,7 @@ def put_in_order(df):
     return df[outros_cols] if "orgao" in df.columns.tolist() else df[saude_cols]
 
 
-def manipulate_padronize_df(df, columns_df):
+def manipulate_padronize_df(df, columns_df, ano):
     df = df.copy()
     df.columns = columns_df
 
@@ -69,5 +71,6 @@ def manipulate_padronize_df(df, columns_df):
     # df["parlamentar"] = df["parlamentar"].apply(lambda name: nome_duplicado_fix(name))
 
     df["parlamentar"] = manipulate.normalize_names(df["parlamentar"])
+    df["ano"] = ano
     df = put_in_order(df)
     return df
