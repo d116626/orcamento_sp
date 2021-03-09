@@ -2990,3 +2990,38 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-03-07==========#####
 
+#####==========2021-03-08==========#####
+
+START
+execucao :  2020
+[WDM] - Getting latest mozilla release info for v0.29.0
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.0/geckodriver-v0.29.0-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.0]
+
+
+execucao :  2021
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.0/geckodriver] found in cache
+
+
+0it [00:00, ?it/s]1it [00:00,  2.42it/s]1it [00:16, 16.57s/it]
+
+
+receita -  previsto :  2020
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.0/geckodriver] found in cache
+receita -  previsto :  2021
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.0/geckodriver] found in cache
+
+
+receita -  arrecadado :  2020
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.0/geckodriver] found in cache
+receita -  arrecadado :  2021
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.0/geckodriver] found in cache
+
+
+0it [00:00, ?it/s]1it [00:06,  6.23s/it]
+0it [00:00, ?it/s]1it [00:04,  4.25s/it]
+0it [00:00, ?it/s]1it [00:04,  4.68s/it]
+2021-03-08
+DONE!
+#####==========2021-03-08==========#####
+
