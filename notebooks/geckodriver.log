@@ -7830,3 +7830,125 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (firefox:21060): GLib-GObject-CRITICAL **: 19:18:47.427: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1616624391205	Marionette	INFO	Stopped listening on port 45319
+1616709906392	geckodriver	INFO	Listening on 127.0.0.1:38381
+1616709907402	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHDOa4d"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libGLESv2 glGetString returned null
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1c8c
+
+(/usr/lib/firefox/firefox:14278): GLib-GObject-CRITICAL **: 19:05:08.192: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14299): GLib-GObject-CRITICAL **: 19:05:08.337: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616709908805	Marionette	INFO	Listening on port 46811
+1616709909010	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14376): GLib-GObject-CRITICAL **: 19:05:09.129: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:14224): GLib-GObject-CRITICAL **: 19:06:45.661: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1616710058701	Marionette	INFO	Stopped listening on port 46811
+1616710063976	geckodriver	INFO	Listening on 127.0.0.1:39531
+1616710063985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilep1wAWD"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libGLESv2 glGetString returned null
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1c8c
+
+(/usr/lib/firefox/firefox:14746): GLib-GObject-CRITICAL **: 19:07:44.677: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14767): GLib-GObject-CRITICAL **: 19:07:44.802: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616710065314	Marionette	INFO	Listening on port 40613
+1616710065403	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14842): GLib-GObject-CRITICAL **: 19:07:45.634: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+
+(firefox:14694): GLib-GObject-CRITICAL **: 19:09:15.071: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1616710210479	Marionette	INFO	Stopped listening on port 40613
+1616710238694	geckodriver	INFO	Listening on 127.0.0.1:55329
+1616710238707	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE3DigP"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libGLESv2 glGetString returned null
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1c8c
+
+(/usr/lib/firefox/firefox:15099): GLib-GObject-CRITICAL **: 19:10:39.547: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:15120): GLib-GObject-CRITICAL **: 19:10:39.687: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616710240166	Marionette	INFO	Listening on port 34179
+1616710240228	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15196): GLib-GObject-CRITICAL **: 19:10:40.513: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:15048): GLib-GObject-CRITICAL **: 19:11:59.214: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1616710382915	Marionette	INFO	Stopped listening on port 34179
+1616710383721	geckodriver	INFO	Listening on 127.0.0.1:49033
+1616710383729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejuJLuY"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libGLESv2 glGetString returned null
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1c8c
+
+(/usr/lib/firefox/firefox:15499): GLib-GObject-CRITICAL **: 19:13:04.609: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:15520): GLib-GObject-CRITICAL **: 19:13:04.858: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616710385768	Marionette	INFO	Listening on port 33117
+
+(/usr/lib/firefox/firefox:15596): GLib-GObject-CRITICAL **: 19:13:05.800: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1616710385849	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:15448): GLib-GObject-CRITICAL **: 19:14:13.120: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1616710516986	Marionette	INFO	Stopped listening on port 33117
+1616710518809	geckodriver	INFO	Listening on 127.0.0.1:40457
+1616710518814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletM6KnB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libGLESv2 glGetString returned null
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1c8c
+
+(/usr/lib/firefox/firefox:15993): GLib-GObject-CRITICAL **: 19:15:19.574: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16014): GLib-GObject-CRITICAL **: 19:15:19.713: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616710520120	Marionette	INFO	Listening on port 44647
+1616710520235	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16090): GLib-GObject-CRITICAL **: 19:15:20.539: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:15943): GLib-GObject-CRITICAL **: 19:16:33.160: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1616710656647	Marionette	INFO	Stopped listening on port 44647
+1616710657417	geckodriver	INFO	Listening on 127.0.0.1:52175
+1616710657426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexayTck"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libGLESv2 glGetString returned null
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3e9b
+[GFX1-]: PCI candidate 0x10de/0x1c8c
+
+(/usr/lib/firefox/firefox:16307): GLib-GObject-CRITICAL **: 19:17:38.145: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16328): GLib-GObject-CRITICAL **: 19:17:38.305: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616710658703	Marionette	INFO	Listening on port 36933
+1616710658746	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16409): GLib-GObject-CRITICAL **: 19:17:39.103: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:16256): GLib-GObject-CRITICAL **: 19:18:45.906: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1616710790050	Marionette	INFO	Stopped listening on port 36933
