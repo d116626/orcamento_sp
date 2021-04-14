@@ -4257,3 +4257,38 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-04-12==========#####
 
+[WDM] - Getting latest mozilla release info for v0.29.1
+[WDM] - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz
+[WDM] - Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:00,  2.37it/s]1it [00:19, 19.91s/it]
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+[WDM] - Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:06,  6.16s/it]
+0it [00:00, ?it/s]1it [00:05,  5.22s/it]
+0it [00:00, ?it/s]1it [00:06,  6.25s/it]
+#####==========2021-04-13==========#####
+
+START
+execucao :  2020
+
+
+execucao :  2021
+
+
+
+
+receita -  previsto :  2020
+receita -  previsto :  2021
+
+
+receita -  arrecadado :  2020
+receita -  arrecadado :  2021
+
+
+2021-04-13
+DONE!
+#####==========2021-04-13==========#####
+
