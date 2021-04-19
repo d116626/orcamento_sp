@@ -1,0 +1,13 @@
+1618841239670	geckodriver	INFO	Listening on 127.0.0.1:47817
+1618841239674	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZbF9jH"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:60523): GLib-GObject-CRITICAL **: 11:07:20.445: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:60544): GLib-GObject-CRITICAL **: 11:07:20.571: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618841241048	Marionette	INFO	Listening on port 36041
+1618841241091	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:60623): GLib-GObject-CRITICAL **: 11:07:21.433: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1618841393876	Marionette	INFO	Stopped listening on port 36041

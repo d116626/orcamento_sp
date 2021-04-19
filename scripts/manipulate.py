@@ -2,6 +2,15 @@ import re
 import pandas as pd
 
 
+def padronize_str(df):
+    return (
+        df.str.normalize("NFKD")
+        .str.encode("ascii", errors="ignore")
+        .str.decode("utf-8")
+        .str.upper()
+    )
+
+
 def normalize_cols(df):
     return (
         df.str.normalize("NFKD")
