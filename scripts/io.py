@@ -77,10 +77,15 @@ def get_orcamento_executado():
         ano.select_by_value(year)
 
         firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$0").click()
+        time.sleep(2)
         firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$1").click()
+        time.sleep(2)
         firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$2").click()
+        time.sleep(2)
         firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$3").click()
+        time.sleep(2)
         firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$4").click()
+        time.sleep(2)
 
         options = {
             "ctl00$ContentPlaceHolder1$ddlOrgao": "",
@@ -296,7 +301,87 @@ def get_orcamento_receita(tipo):
     print("\n")
 
 
-def get_orcamento_receita_unico(tipo):
+def _get_credentials_gbq():
+
+    SCOPES = [
+        "https://www.googleapis.com/auth/cloud-platform",
+        "https://www.googleapis.com/auth/drive",
+    ]
+
+    credentials = pydata_google_auth.get_user_credentials(
+        SCOPES,
+        # Set auth_local_webserver to True to have a slightly more convienient
+        # authorization flow. Note, this doesn't work if you're running from a
+        # notebook on a remote sever, such as over SSH or with Google Colab.
+        auth_local_webserver=True,
+    )
+
+    return credentials
+
+
+def to_gbq(
+    df, table_name, schema_name="simula_corona", project_id="robusta-lab", **kwargs
+):
+    """
+    write a dataframe in Google BigQuery
+    """
+
+    destination_table = f"{schema_name}.{table_name}"
+
+    pandas_gbq.to_gbq(
+        df, destination_table, project_id, credentials=_get_credentials_gbq(), **kwargs
+    )
+
+
+def read_gbq(query, project_id="robusta-lab", **kwargs):
+    """
+    write a dataframe in Google BigQuery
+    """
+
+    return pandas_gbq.read_gbq(
+        query, project_id, credentials=_get_credentials_gbq(), **kwargs
+    )
+
+
+def to_storage(bucket, bucket_folder, file_name, path_to_file):
+
+    client = storage.Client(project="gavinete-sv")
+    bucket = client.get_bucket(f"{bucket}")
+    blob = bucket.blob(f"{bucket_folder}/{file_name}")
+    blob.upload_from_filename(f"{path_to_file}")
+
+    print("Done!")
+
+
+def read_sheets(sheet_name, workSheet=0):
+
+    scope = [
+        "https://spreadsheets.google.com/feeds",
+        "https://www.googleapis.com/auth/drive",
+    ]
+
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(
+        "../../credentials/gabinete-sv-9aed310629e5.json", scope
+    )
+    gc = gspread.authorize(credentials)
+    if workSheet == 0:
+        wks = gc.open(sheet_name).sheet1
+    else:
+        wks = gc.open(sheet_name).worksheet(workSheet)
+
+    data = wks.get_all_values()
+    headers = data.pop(0)
+
+    return pd.DataFrame(data, columns=headers)
+
+
+########## BAIXAR APENAS O CONSOLIDADO ##############################################################################################################################################
+
+
+def get_orcamento_receita_consolidado(tipo):
+    """
+    tipo pode ser previsto ou arrecadado
+    """
     years = [str(i) for i in range(2010, 2021)]
     i = 0 if tipo == "previsto" else 1
     # firefox = webdriver.Firefox()
@@ -305,10 +390,16 @@ def get_orcamento_receita_unico(tipo):
         print("receita - ", tipo, ": ", year)
         path = os.getcwd()
 
-        path = (
-            path.split("notebooks")[0]
-            + f"data/orcamento_consolidado/receita_arrecadada"
-        )
+        if i == 1:
+            path = (
+                path.split("notebooks")[0]
+                + f"data/orcamento_consolidado/receita_arrecadada"
+            )
+        else:
+            path = (
+                path.split("notebooks")[0]
+                + f"data/orcamento_consolidado/receita_prevista"
+            )
 
         files_before = glob.glob(f"{path}/*")
 
@@ -388,75 +479,98 @@ def get_orcamento_receita_unico(tipo):
         )
 
 
-def _get_credentials_gbq():
+def get_orcamento_executado_consolidado():
+    years = [str(i) for i in range(2011, 2022)]
 
-    SCOPES = [
-        "https://www.googleapis.com/auth/cloud-platform",
-        "https://www.googleapis.com/auth/drive",
-    ]
+    for year in years:
+        print("execucao : ", year)
+        path = os.getcwd()
 
-    credentials = pydata_google_auth.get_user_credentials(
-        SCOPES,
-        # Set auth_local_webserver to True to have a slightly more convienient
-        # authorization flow. Note, this doesn't work if you're running from a
-        # notebook on a remote sever, such as over SSH or with Google Colab.
-        auth_local_webserver=True,
-    )
+        path = path.split("notebooks")[0] + f"data/orcamento_consolidado/execucao"
 
-    return credentials
+        files_before = glob.glob(f"{path}/*")
 
+        profile = webdriver.FirefoxProfile()
+        profile.set_preference("browser.download.dir", path)
+        profile.set_preference("browser.download.folderList", 2)
+        profile.set_preference(
+            "browser.helperApps.neverAsk.saveToDisk",
+            "application/csv,application/excel,application/vnd.msexcel,application/vnd.ms-excel,text/anytext,text/comma-separated-values,text/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/octet-stream",
+        )
+        profile.set_preference("browser.download.manager.showWhenStarting", False)
+        profile.set_preference(
+            "browser.helperApps.neverAsk.openFile",
+            "application/csv,application/excel,application/vnd.msexcel,application/vnd.ms-excel,text/anytext,text/comma-separated-values,text/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/octet-stream",
+        )
+        profile.set_preference("browser.helperApps.alwaysAsk.force", False)
+        profile.set_preference("browser.download.manager.useWindow", False)
+        profile.set_preference("browser.download.manager.focusWhenStarting", False)
+        profile.set_preference("browser.download.manager.alertOnEXEOpen", False)
+        profile.set_preference("browser.download.manager.showAlertOnComplete", False)
+        profile.set_preference("browser.download.manager.closeWhenDone", True)
+        profile.set_preference("pdfjs.disabled", True)
 
-def to_gbq(
-    df, table_name, schema_name="simula_corona", project_id="robusta-lab", **kwargs
-):
-    """
-    write a dataframe in Google BigQuery
-    """
+        options = Options()
+        ### run quiet
+        options.headless = False
 
-    destination_table = f"{schema_name}.{table_name}"
+        firefox = webdriver.Firefox(
+            options=options,
+            firefox_profile=profile,
+            executable_path=GeckoDriverManager().install(),
+        )
+        url = "https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsDespesa.aspx"
 
-    pandas_gbq.to_gbq(
-        df, destination_table, project_id, credentials=_get_credentials_gbq(), **kwargs
-    )
+        firefox.get(url)
+        # firefox.request('POST', url,)
 
+        ano = Select(firefox.find_element_by_name("ctl00$ContentPlaceHolder1$ddlAno"))
+        ano.select_by_value(year)
 
-def read_gbq(query, project_id="robusta-lab", **kwargs):
-    """
-    write a dataframe in Google BigQuery
-    """
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$0").click()
+        time.sleep(2)
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$1").click()
+        time.sleep(2)
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$2").click()
+        time.sleep(2)
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$3").click()
+        time.sleep(2)
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$4").click()
 
-    return pandas_gbq.read_gbq(
-        query, project_id, credentials=_get_credentials_gbq(), **kwargs
-    )
+        options = {
+            "ctl00$ContentPlaceHolder1$ddlOrgao": "",
+            "ctl00$ContentPlaceHolder1$ddlCategoria": "",
+            "ctl00$ContentPlaceHolder1$ddlUo": "",
+            "ctl00$ContentPlaceHolder1$ddlGrupo": "",
+            "ctl00$ContentPlaceHolder1$ddlUge": "",
+            "ctl00$ContentPlaceHolder1$ddlModalidade": "",
+            "ctl00$ContentPlaceHolder1$ddlFonteRecursos": "",
+            "ctl00$ContentPlaceHolder1$ddlElemento": "",
+            "ctl00$ContentPlaceHolder1$ddlFuncao": "",
+            "ctl00$ContentPlaceHolder1$ddlSubFuncao": "",
+            "ctl00$ContentPlaceHolder1$ddlPrograma": "",
+            "ctl00$ContentPlaceHolder1$ddlAcao": "",
+            "ctl00$ContentPlaceHolder1$ddlProgramaTrabalho": "",
+        }
 
+        for op in options.keys():
+            selected = Select(firefox.find_element_by_name(op))
+            selected.select_by_value(options[op])
+            time.sleep(5)
 
-def to_storage(bucket, bucket_folder, file_name, path_to_file):
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnPesquisar").click()
 
-    client = storage.Client(project="gavinete-sv")
-    bucket = client.get_bucket(f"{bucket}")
-    blob = bucket.blob(f"{bucket_folder}/{file_name}")
-    blob.upload_from_filename(f"{path_to_file}")
+        time.sleep(60)
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
+        time.sleep(60)
 
-    print("Done!")
+        firefox.quit()
 
+        files_after = glob.glob(f"{path}/*")
 
-def read_sheets(sheet_name, workSheet=0):
+        file_now = [file for file in files_after if file not in files_before][0]
 
-    scope = [
-        "https://spreadsheets.google.com/feeds",
-        "https://www.googleapis.com/auth/drive",
-    ]
-
-    credentials = ServiceAccountCredentials.from_json_keyfile_name(
-        "../../credentials/gabinete-sv-9aed310629e5.json", scope
-    )
-    gc = gspread.authorize(credentials)
-    if workSheet == 0:
-        wks = gc.open(sheet_name).sheet1
-    else:
-        wks = gc.open(sheet_name).worksheet(workSheet)
-
-    data = wks.get_all_values()
-    headers = data.pop(0)
-
-    return pd.DataFrame(data, columns=headers)
+        os.rename(
+            file_now,
+            path + "/orcamento_executado_{}.csv".format(year),
+        )
