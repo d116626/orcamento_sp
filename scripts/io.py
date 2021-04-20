@@ -101,7 +101,7 @@ def get_orcamento_executado():
         for op in options.keys():
             selected = Select(firefox.find_element_by_name(op))
             selected.select_by_value(options[op])
-            time.sleep(0.2)
+            time.sleep(5)
 
         firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnPesquisar").click()
 
@@ -245,7 +245,7 @@ def get_orcamento_receita(tipo):
         for op in options:
             selected = Select(firefox.find_element_by_name(op))
             selected.select_by_value(options[op])
-            time.sleep(0.2)
+            time.sleep(5)
 
         firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnPesquisar").click()
         time.sleep(60)
@@ -294,6 +294,98 @@ def get_orcamento_receita(tipo):
             index=False,
         )
     print("\n")
+
+
+def get_orcamento_receita_unico(tipo):
+    years = [str(i) for i in range(2010, 2021)]
+    i = 0 if tipo == "previsto" else 1
+    # firefox = webdriver.Firefox()
+    url = "https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsReceita.aspx"
+    for year in years:
+        print("receita - ", tipo, ": ", year)
+        path = os.getcwd()
+
+        path = (
+            path.split("notebooks")[0]
+            + f"data/orcamento_consolidado/receita_arrecadada"
+        )
+
+        files_before = glob.glob(f"{path}/*")
+
+        profile = webdriver.FirefoxProfile()
+        profile.set_preference("browser.download.dir", path)
+        profile.set_preference("browser.download.folderList", 2)
+        profile.set_preference(
+            "browser.helperApps.neverAsk.saveToDisk",
+            "application/csv,application/excel,application/vnd.msexcel,application/vnd.ms-excel,text/anytext,text/comma-separated-values,text/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/octet-stream",
+        )
+        profile.set_preference("browser.download.manager.showWhenStarting", False)
+        profile.set_preference(
+            "browser.helperApps.neverAsk.openFile",
+            "application/csv,application/excel,application/vnd.msexcel,application/vnd.ms-excel,text/anytext,text/comma-separated-values,text/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/octet-stream",
+        )
+        profile.set_preference("browser.helperApps.alwaysAsk.force", False)
+        profile.set_preference("browser.download.manager.useWindow", False)
+        profile.set_preference("browser.download.manager.focusWhenStarting", False)
+        profile.set_preference("browser.download.manager.alertOnEXEOpen", False)
+        profile.set_preference("browser.download.manager.showAlertOnComplete", False)
+        profile.set_preference("browser.download.manager.closeWhenDone", True)
+        profile.set_preference("pdfjs.disabled", True)
+
+        # year = '2019'
+
+        options = Options()
+        ### run quiet
+        # options.headless = True
+
+        firefox = webdriver.Firefox(
+            options=options,
+            firefox_profile=profile,
+            executable_path=GeckoDriverManager().install(),
+        )
+        firefox.get(url)
+        # firefox.request('POST', url,)
+
+        ano = Select(firefox.find_element_by_name("ctl00$ContentPlaceHolder1$ddlAno"))
+        ano.select_by_value(year)
+
+        firefox.find_element_by_id(
+            "ctl00_ContentPlaceHolder1_rblFase_{}".format(i)
+        ).click()
+
+        options = {
+            "ctl00$ContentPlaceHolder1$ddlOrgao": "",
+            # 'ctl00$ContentPlaceHolder1$ddlCategoria:'',
+            "ctl00$ContentPlaceHolder1$ddlGestao": "",
+            # 'ctl00$ContentPlaceHolder1$ddlOrigem: '',
+            "ctl00$ContentPlaceHolder1$ddlUge": "",
+            # 'ctl00$ContentPlaceHolder1$ddlEspecie':'',
+            "ctl00$ContentPlaceHolder1$ddlFonteRecursos": "",
+            # 'ctl00$ContentPlaceHolder1$ddlRubrica':'',
+            # 'ctl00$ContentPlaceHolder1$ddlAlinea':'',
+            # 'ctl00$ContentPlaceHolder1$rblFase':'',
+            "ctl00$ContentPlaceHolder1$ddlSubAlinea": "",
+        }
+
+        for op in options:
+            selected = Select(firefox.find_element_by_name(op))
+            selected.select_by_value(options[op])
+            time.sleep(1)
+
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnPesquisar").click()
+        time.sleep(60)
+        firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
+        time.sleep(60)
+
+        firefox.quit()
+
+        files_after = glob.glob(f"{path}/*")
+        file_now = [file for file in files_after if file not in files_before][0]
+
+        os.rename(
+            file_now,
+            path + "/orcamento_{}_{}.csv".format(tipo, year),
+        )
 
 
 def _get_credentials_gbq():
