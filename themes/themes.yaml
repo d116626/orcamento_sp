@@ -1,24 +1,12 @@
-# Add custom colorscales here!
-my_scale: ['#DA4657', '#054257', '#49B5BD', '#B1F200', '#FEB916']
-
-# Source: https://learnui.design/tools/data-color-picker.html
-learn_ui_design: ['#003f5c', '#58508d', '#bc5090', '#ff6361', '#ffa600'] 
-
-# Impulso visual ID:
-impulso: ['#F24949', '#34758A', '#0097A7', '#007ABE', '#F2F2F2']
-
-# pale
-pale: ['#24306C',"#BB4140",'#559F7A','#2C0226' ,'#585858']
-
-#novo
-novo: ['#FA7609','#0D485A','#1D8179','#585858']
-
-redAndBlue: ['#DF718A','#5DB7EB']
-
-vale_bars:
-
-  barmode: 'stack'
-  hovermode: 'y' #'x unified'
+bar:
+  data:
+    line_width: 6
+    marker_size: 8
+    hoverlabel_size: 15
+    hoverlabel_bgcolor: 'rgba(0,0,0,0)'
+  
+  barmode: 'group'
+  hovermode:  #'x unified'
   
   paper_bgcolor: '#FFFFFF'
   plot_bgcolor: 'rgba(0,0,0,0)'
@@ -26,55 +14,53 @@ vale_bars:
   margin :
     l: 10
     r: 10
-    t: 25
+    t: 
     b: 10
 
   title:
     family: 'Courier New, monospace'
     color: '#000000'
-    size: 20
+    size: 40
+    position:
+      x: 0.5
+      y:
+      xanchor:
+      yanchor:
   
   ### AXIS TITLE
   axis_tilte:
     family: 'Courier New, monospace'
     color: '#000000'
-    size: 18
+    size: 15
   
   #AXIS VALUES
   axis_legend:
     family: 'Courier New, monospace'
     color: '#000000'
-    size: 10
+    size: 20
     gridcolor: '#e5e5e5'
-    x:
-      title: ''
-      gridcolor: '#e5e5e5'
-    y:
-      title: ''
-      gridcolor: '#FFFFFF'
-
 
     scale:
       linear:
         x:
           type: 'date'
-          tickformat: '%d/%m'
+          tickformat: '%Y'
         y:
           type: 'linear'
-          tickformat: 'n'
+          tickformat:
 
   legend:
     family: 'Courier New, monospace'
     color: '#000000'
     orientation: 'h' #vertical
-    size: 10
+    size: 20
     bgcolor: 'rgba(0,0,0,0)'
     bordercolor: 'rgba(0,0,0,0)'
     borderwidth: 0
-    traceorder: 'reversed' #reversed or normal
+    traceorder: 'normal' #reversed or normal
     position:
-      x: 
-      y:
+      x: 0.01
+      y: 1.04
       xanchor:
       yanchor:
 
@@ -88,26 +74,5 @@ vale_bars:
       x: -0.04
       y: -0.14
     
-  altura: 800
-  largura:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  altura: 600
+  largura: 1700
