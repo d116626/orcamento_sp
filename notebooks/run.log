@@ -4845,3 +4845,4 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-04-29==========#####
 
+/bin/sh: 1: /home/m/anaconda3/bin/python: not found
