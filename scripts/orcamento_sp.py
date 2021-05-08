@@ -104,6 +104,28 @@ def receita_origem(df_receita):
     return df_receita
 
 
+replace_raca_cor = {
+    "Parda": "Preto",
+    "Indigena": "Preto",
+    "Preta": "Preto",
+    "Branca": "Branco",
+    "Amarela": "Branco",
+}
+
+
+mask_publico = (matriculas_municipio["rede"] == "publica") & (
+    matriculas_municipio["raca_cor"] != "Nao declarado"
+)
+
+publico = matriculas_municipio[mask_publico]
+publico["raca_cor"] = (
+    publico["raca_cor"]
+    .map(replace_raca_cor)
+    .sort_values(by=["id_municipio", "matriculas"], ascending=False)
+    .drop_duplicates(subset="id_municipio", keep="first")
+)
+
+
 def get_receita(files):
     ## CHECA SE ARQUIVOS SAO CONSISTENTES ENTRE OS ANOS
     df_cols = pd.DataFrame()
