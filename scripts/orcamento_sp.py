@@ -104,26 +104,19 @@ def receita_origem(df_receita):
     return df_receita
 
 
-replace_raca_cor = {
-    "Parda": "Preto",
-    "Indigena": "Preto",
-    "Preta": "Preto",
-    "Branca": "Branco",
-    "Amarela": "Branco",
-}
-
-
-mask_publico = (matriculas_municipio["rede"] == "publica") & (
-    matriculas_municipio["raca_cor"] != "Nao declarado"
-)
-
-publico = matriculas_municipio[mask_publico]
-publico["raca_cor"] = (
-    publico["raca_cor"]
-    .map(replace_raca_cor)
-    .sort_values(by=["id_municipio", "matriculas"], ascending=False)
-    .drop_duplicates(subset="id_municipio", keep="first")
-)
+colors_preto = [
+    "#67001f",
+    "#b2182b",
+    "#d6604d",
+    "#f4a582",
+    "#fddbc7",
+    "#f7f7f7",
+    "#d1e5f0",
+    "#92c5de",
+    "#4393c3",
+    "#2166ac",
+    "#053061",
+]
 
 
 def get_receita(files):
