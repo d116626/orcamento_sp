@@ -104,19 +104,53 @@ def receita_origem(df_receita):
     return df_receita
 
 
-colors_preto = [
-    "#67001f",
-    "#b2182b",
-    "#d6604d",
-    "#f4a582",
-    "#fddbc7",
-    "#f7f7f7",
-    "#d1e5f0",
-    "#92c5de",
-    "#4393c3",
-    "#2166ac",
-    "#053061",
-]
+def plot_bar(matriculas_rede, selected_rede):
+
+    rede = matriculas_rede[matriculas_rede["rede"] == selected_rede]
+    rede = (
+        rede.pivot_table(columns="raca_cor", index=["ano"], values="matriculas")
+        .reset_index()
+        .sort_values(by="ano", ascending=False)
+    )
+
+    fig = plt.figure(figsize=(25, 15))
+    ax = plt.subplot()
+
+    bar_colors = [
+        palete["roxo"],
+        palete["azul"],
+        palete["vermelho"],
+    ]
+
+    cols_order = [
+        "ano",
+        "Nao declarado",
+        "Branco",
+        "Preto",
+    ]
+
+    rede[cols_order].plot.barh(
+        x="ano",
+        stacked=True,
+        width=0.955,
+        ax=ax,
+        color=bar_colors,
+        edgecolor="black",
+        linewidth=1,
+    )
+
+    ax.set_title(f"Rede {selected_rede}", fontsize=32, pad=0, fontweight="bold")
+    ax.set_xlabel("", fontsize=22)
+    ax.set_ylabel("", fontsize=22)
+    ax.spines["right"].set_visible(False)
+    ax.spines["top"].set_visible(False)
+    ax.spines["left"].set_visible(False)
+    ax.spines["bottom"].set_visible(False)
+    ax.margins(x=0, y=0)
+
+
+#     handles, labels = ax.get_legend_handles_labels()
+#     ax.legend(handles[::-1], labels[::-1], fontsize=25)
 
 
 def get_receita(files):
