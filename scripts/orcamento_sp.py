@@ -104,6 +104,23 @@ def receita_origem(df_receita):
     return df_receita
 
 
+df["programa"] = generate_col(df, r"\bPrograma:\n")
+df["orgao"] = generate_col(df, r"\bÓrgão:\n")
+df["ind_programa"] = generate_col(df, r"\bINDICADORES DE RESULTADO DE PROGRAMA")
+df["produto"] = generate_col(df, r"\bPRODUTO: ")
+df["ind_produto"] = generate_col(df, r"\bINDICADOR DE PRODUTO")
+df["acao"] = generate_col(df, r"\bAÇÃO\b")
+
+df["root"] = (
+    df["programa"].fillna("")
+    + df["orgao"].fillna("")
+    + df["ind_programa"].fillna("")
+    + df["produto"].fillna("")
+    + df["ind_produto"].fillna("")
+    + df["acao"].fillna("")
+)
+
+
 def plot_bar(matriculas_rede, selected_rede):
 
     rede = matriculas_rede[matriculas_rede["rede"] == selected_rede]
