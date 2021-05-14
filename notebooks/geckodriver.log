@@ -12505,3 +12505,19 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (firefox:11421): GLib-GObject-CRITICAL **: 19:22:37.813: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1620858221784	Marionette	INFO	Stopped listening on port 36295
+1620943507226	geckodriver	INFO	Listening on 127.0.0.1:53641
+1620943508231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFzQnMC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+1620943508509	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:3261): GLib-GObject-CRITICAL **: 19:05:08.983: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:3281): GLib-GObject-CRITICAL **: 19:05:09.117: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620943509521	Marionette	INFO	Listening on port 40841
+1620943509600	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3356): GLib-GObject-CRITICAL **: 19:05:09.968: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1620943918525	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
