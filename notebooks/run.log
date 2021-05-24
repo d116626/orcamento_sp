@@ -6244,3 +6244,20 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-05-22==========#####
 
+
+
+====== WebDriver manager ======
+Current firefox version is 88.0.1
+Get LATEST driver version for 88.0.1
+Get LATEST driver version for 88.0.1
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 88.0.1
+Get LATEST driver version for 88.0.1
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz
+Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1]
+
+
+====== WebDriver manager ======
+Current firefox version is 88.0.1
+Get LATEST driver version for 88.0.1
+Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
