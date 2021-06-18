@@ -15528,3 +15528,84 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 (firefox:54004): GLib-GObject-CRITICAL **: 19:22:53.469: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1623882237705	Marionette	INFO	Stopped listening on port 35289
+1623967506510	geckodriver	INFO	Listening on 127.0.0.1:52833
+1623967507533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9yFgTB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+1623967507968	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9yFgTB/search.json.mozlz4", (void 0)))
+1623967509035	Marionette	INFO	Listening on port 36287
+1623967509054	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:93748): GLib-GObject-CRITICAL **: 19:07:51.069: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1623967728773	Marionette	INFO	Stopped listening on port 36287
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623967731041	geckodriver	INFO	Listening on 127.0.0.1:57875
+1623967732064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenhIEbm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+1623967732400	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenhIEbm/search.json.mozlz4", (void 0)))
+1623967733472	Marionette	INFO	Listening on port 38941
+1623967733586	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:94090): GLib-GObject-CRITICAL **: 19:11:31.095: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1623967949541	Marionette	INFO	Stopped listening on port 38941
+1623967969165	geckodriver	INFO	Listening on 127.0.0.1:46499
+1623967970189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet53XyL"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+1623967970540	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet53XyL/search.json.mozlz4", (void 0)))
+1623967971481	Marionette	INFO	Listening on port 46693
+1623967971507	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:94430): GLib-GObject-CRITICAL **: 19:14:30.958: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1623968134677	Marionette	INFO	Stopped listening on port 46693
+1623968135663	geckodriver	INFO	Listening on 127.0.0.1:36199
+1623968136687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAUnP4O"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+1623968137030	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAUnP4O/search.json.mozlz4", (void 0)))
+1623968138067	Marionette	INFO	Listening on port 38195
+1623968138110	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:94970): GLib-GObject-CRITICAL **: 19:17:10.263: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1623968294198	Marionette	INFO	Stopped listening on port 38195
+1623968294985	geckodriver	INFO	Listening on 127.0.0.1:42679
+1623968296008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenAWA8z"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+1623968296330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenAWA8z/search.json.mozlz4", (void 0)))
+1623968297200	Marionette	INFO	Listening on port 44231
+1623968297229	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:95298): GLib-GObject-CRITICAL **: 19:19:51.454: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1623968455152	Marionette	INFO	Stopped listening on port 44231
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623968456263	geckodriver	INFO	Listening on 127.0.0.1:44909
+1623968457286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilec9qOPX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+1623968457610	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec9qOPX/search.json.mozlz4", (void 0)))
+1623968458515	Marionette	INFO	Listening on port 41563
+1623968458620	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:95597): GLib-GObject-CRITICAL **: 19:22:30.343: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1623968614333	Marionette	INFO	Stopped listening on port 41563
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
