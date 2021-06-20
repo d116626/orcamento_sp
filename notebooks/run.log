@@ -7958,3 +7958,71 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-06-18==========#####
 
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.1
+Get LATEST driver version for 89.0.1
+Get LATEST driver version for 89.0.1
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 89.0.1
+Get LATEST driver version for 89.0.1
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz
+Driver has been saved in cache [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1]
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.1
+Get LATEST driver version for 89.0.1
+Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:00,  2.56it/s]1it [00:16, 16.52s/it]
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.1
+Get LATEST driver version for 89.0.1
+Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.1
+Get LATEST driver version for 89.0.1
+Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.1
+Get LATEST driver version for 89.0.1
+Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.1
+Get LATEST driver version for 89.0.1
+Driver [/home/m/.wdm/drivers/geckodriver/linux64/v0.29.1/geckodriver] found in cache
+0it [00:00, ?it/s]1it [00:05,  5.01s/it]
+0it [00:00, ?it/s]1it [00:09,  9.31s/it]
+0it [00:00, ?it/s]1it [00:05,  5.94s/it]
+#####==========2021-06-19==========#####
+
+START
+execucao :  2020
+
+
+execucao :  2021
+
+
+
+
+receita -  previsto :  2020
+receita -  previsto :  2021
+
+
+receita -  arrecadado :  2020
+receita -  arrecadado :  2021
+
+
+2021-06-19
+DONE!
+#####==========2021-06-19==========#####
+
