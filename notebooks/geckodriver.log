@@ -15918,3 +15918,66 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1624473444156	Marionette	INFO	Listening on port 60224
 1624473444350	Marionette	WARN	TLS certificate errors will be ignored for this session
 1624473600791	Marionette	INFO	Stopped listening on port 60224
+1624572057390	geckodriver	INFO	Listening on 127.0.0.1:55789
+1624572057897	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebNgQLO"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1624572061807	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebNgQLO/search.json.mozlz4", (void 0)))
+1624572063822	Marionette	INFO	Listening on port 55796
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1624579247825	geckodriver	INFO	Listening on 127.0.0.1:58341
+1624579248519	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofilelDd3SM"
+*** You are running in headless mode.
+1624579248983	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofilelDd3SM/search.json.mozlz4", (void 0)))
+1624579250704	Marionette	INFO	Listening on port 58358
+1624579250744	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624579468273	Marionette	INFO	Stopped listening on port 58358
+1624579470038	geckodriver	INFO	Listening on 127.0.0.1:58907
+1624579471054	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofileylT2XL"
+*** You are running in headless mode.
+1624579471556	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofileylT2XL/search.json.mozlz4", (void 0)))
+1624579473214	Marionette	INFO	Listening on port 58915
+1624579473231	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624579690742	Marionette	INFO	Stopped listening on port 58915
+1624579974310	geckodriver	INFO	Listening on 127.0.0.1:60098
+1624579975328	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofileoecGOW"
+*** You are running in headless mode.
+1624579975847	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofileoecGOW/search.json.mozlz4", (void 0)))
+1624579977346	Marionette	INFO	Listening on port 60106
+1624579977435	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624580133665	Marionette	INFO	Stopped listening on port 60106
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624580134545	geckodriver	INFO	Listening on 127.0.0.1:60377
+1624580135569	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofilenBXj6e"
+*** You are running in headless mode.
+1624580135947	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofilenBXj6e/search.json.mozlz4", (void 0)))
+1624580137446	Marionette	INFO	Listening on port 60384
+1624580137543	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624580292797	Marionette	INFO	Stopped listening on port 60384
+1624580293911	geckodriver	INFO	Listening on 127.0.0.1:60650
+1624580294939	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofiler4tCaA"
+*** You are running in headless mode.
+1624580295304	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofiler4tCaA/search.json.mozlz4", (void 0)))
+1624580296566	Marionette	INFO	Listening on port 60657
+1624580296613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624580452499	Marionette	INFO	Stopped listening on port 60657
+1624580453552	geckodriver	INFO	Listening on 127.0.0.1:61027
+1624580454579	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofileFQOxO9"
+*** You are running in headless mode.
+1624580454941	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/k6/79fty7kj1k9dgksxbl6mj7500000gn/T/rust_mozprofileFQOxO9/search.json.mozlz4", (void 0)))
+1624580456190	Marionette	INFO	Listening on port 61035
+1624580456246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624580612000	Marionette	INFO	Stopped listening on port 61035
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
