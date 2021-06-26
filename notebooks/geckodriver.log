@@ -15981,3 +15981,40 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+JavaScript warning: https://assets3.freshdesk.com/assets/cdn/portal_head-90a3a3b51c0cd7a09f79dc571a86d1a7.js, line 40: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://assets3.freshdesk.com/assets/cdn/portal_head-90a3a3b51c0cd7a09f79dc571a86d1a7.js, line 40: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+2021-06-25 15:05:17.591 firefox-bin[59262:2545096] HIToolbox: received notification of WindowServer event port death.
+2021-06-25 15:05:17.595 firefox-bin[59262:2545096] port matched the WindowServer port created in BindCGSToRunLoop
+1624658411317	geckodriver	INFO	Listening on 127.0.0.1:56072
+1624658411703	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevSixZl"
+*** You are running in headless mode.
+1624658413119	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevSixZl/search.json.mozlz4", (void 0)))
+1624658416964	Marionette	INFO	Listening on port 56083
+1624658417122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624658643583	Marionette	INFO	Stopped listening on port 56083
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1624658647653	geckodriver	INFO	Listening on 127.0.0.1:56468
+1624658648669	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelxC6qd"
+*** You are running in headless mode.
+1624658649541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelxC6qd/search.json.mozlz4", (void 0)))
+1624658652821	Marionette	INFO	Listening on port 56486
+1624658652929	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624658876538	Marionette	INFO	Stopped listening on port 56486
+1624659234808	geckodriver	INFO	Listening on 127.0.0.1:57031
+1624659235971	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePKfc4H"
+*** You are running in headless mode.
+1624659237268	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePKfc4H/search.json.mozlz4", (void 0)))
+1624659241887	Marionette	INFO	Listening on port 57038
+1624659242028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.fazenda.sp.gov.br/SigeoLei131/Paginas/FlexConsReceitaExcel.aspx, line 130: ReferenceError: doLayout is not defined
+1624675685628	Marionette	INFO	Stopped listening on port 57038
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
