@@ -138,3 +138,67 @@ Traceback (most recent call last):
   File "../scripts/io.py", line 263, in get_orcamento_receita
     file_now = [file for file in files_after if file not in files_before][0]
 IndexError: list index out of range
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.2
+Get LATEST driver version for 89.0.2
+Get LATEST driver version for 89.0.2
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 89.0.2
+Get LATEST driver version for 89.0.2
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
+Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1]
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.2
+Get LATEST driver version for 89.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.2
+Get LATEST driver version for 89.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.2
+Get LATEST driver version for 89.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.2
+Get LATEST driver version for 89.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 89.0.2
+Get LATEST driver version for 89.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+#####==========2021-06-26==========#####
+
+START
+execucao :  2020
+
+
+execucao :  2021
+
+
+
+
+receita -  previsto :  2020
+receita -  previsto :  2021
+
+
+receita -  arrecadado :  2020
+receita -  arrecadado :  2021
+
+
+2021-06-26
+DONE!
+#####==========2021-06-26==========#####
+
