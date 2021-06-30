@@ -1,0 +1,78 @@
+bar:
+  data:
+    line_width: 6
+    marker_size: 8
+    hoverlabel_size: 15
+    hoverlabel_bgcolor: 'rgba(0,0,0,0)'
+  
+  barmode: 'group'
+  hovermode:  #'x unified'
+  
+  paper_bgcolor: '#FFFFFF'
+  plot_bgcolor: 'rgba(0,0,0,0)'
+  
+  margin :
+    l: 10
+    r: 10
+    t: 
+    b: 10
+
+  title:
+    family: 'Courier New, monospace'
+    color: '#000000'
+    size: 40
+    position:
+      x: 0.5
+      y:
+      xanchor:
+      yanchor:
+  
+  ### AXIS TITLE
+  axis_tilte:
+    family: 'Courier New, monospace'
+    color: '#000000'
+    size: 15
+  
+  #AXIS VALUES
+  axis_legend:
+    family: 'Courier New, monospace'
+    color: '#000000'
+    size: 20
+    gridcolor: '#e5e5e5'
+
+    scale:
+      linear:
+        x:
+          type: 'date'
+          tickformat: '%Y'
+        y:
+          type: 'linear'
+          tickformat:
+
+  legend:
+    family: 'Courier New, monospace'
+    color: '#000000'
+    orientation: 'h' #vertical
+    size: 20
+    bgcolor: 'rgba(0,0,0,0)'
+    bordercolor: 'rgba(0,0,0,0)'
+    borderwidth: 0
+    traceorder: 'normal' #reversed or normal
+    position:
+      x: 0.01
+      y: 1.04
+      xanchor:
+      yanchor:
+
+
+  source:
+    text: ''
+    family: 'Courier New, monospace'
+    size: 16
+    color: '#000000'
+    position:
+      x: -0.04
+      y: -0.14
+    
+  altura: 600
+  largura: 1700

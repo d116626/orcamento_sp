@@ -16174,3 +16174,12 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1624918599085	Marionette	INFO	Listening on port 62937
 1624918599243	Marionette	WARN	TLS certificate errors will be ignored for this session
 1624918755683	Marionette	INFO	Stopped listening on port 62937
+1625004009185	geckodriver	INFO	Listening on 127.0.0.1:50823
+1625004009657	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileokgpUA"
+*** You are running in headless mode.
+1625004010878	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileokgpUA/search.json.mozlz4", (void 0)))
+1625004014514	Marionette	INFO	Listening on port 50834
+1625004014574	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
