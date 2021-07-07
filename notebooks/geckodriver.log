@@ -16441,3 +16441,54 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1625523405575	Marionette	INFO	Listening on port 60242
 1625523405633	Marionette	WARN	TLS certificate errors will be ignored for this session
 1625523562689	Marionette	INFO	Stopped listening on port 60242
+1625608808550	geckodriver	INFO	Listening on 127.0.0.1:49759
+1625608809021	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileF3tI22"
+*** You are running in headless mode.
+1625608810117	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF3tI22/search.json.mozlz4", (void 0)))
+1625608813994	Marionette	INFO	Listening on port 49767
+1625608814154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625609036178	Marionette	INFO	Stopped listening on port 49767
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625609040008	geckodriver	INFO	Listening on 127.0.0.1:50170
+1625609041020	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqR0hmj"
+*** You are running in headless mode.
+1625609041882	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqR0hmj/search.json.mozlz4", (void 0)))
+1625609045034	Marionette	INFO	Listening on port 50177
+1625609045086	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625609264641	Marionette	INFO	Stopped listening on port 50177
+1625609292651	geckodriver	INFO	Listening on 127.0.0.1:50599
+1625609293721	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileY5OCyR"
+*** You are running in headless mode.
+1625609294647	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY5OCyR/search.json.mozlz4", (void 0)))
+1625609298090	Marionette	INFO	Listening on port 50606
+1625609298176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625609466160	Marionette	INFO	Stopped listening on port 50606
+1625609467479	geckodriver	INFO	Listening on 127.0.0.1:50904
+1625609468552	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLmTZDp"
+*** You are running in headless mode.
+1625609469487	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLmTZDp/search.json.mozlz4", (void 0)))
+1625609472673	Marionette	INFO	Listening on port 50912
+1625609472768	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625609633055	Marionette	INFO	Stopped listening on port 50912
+1625609634591	geckodriver	INFO	Listening on 127.0.0.1:51230
+1625609635677	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQzeE62"
+*** You are running in headless mode.
+1625609636713	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQzeE62/search.json.mozlz4", (void 0)))
+1625609640009	Marionette	INFO	Listening on port 51238
+1625609640197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625609798099	Marionette	INFO	Stopped listening on port 51238
+1625609799526	geckodriver	INFO	Listening on 127.0.0.1:51770
+1625609800620	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekDCRkC"
+*** You are running in headless mode.
+1625609801594	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekDCRkC/search.json.mozlz4", (void 0)))
+1625609805341	Marionette	INFO	Listening on port 51780
+1625609805459	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625609965166	Marionette	INFO	Stopped listening on port 51780
