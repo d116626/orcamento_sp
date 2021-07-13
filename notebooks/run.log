@@ -1038,3 +1038,15 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-07-11==========#####
 
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 9, in <module>
+    from scripts import io
+  File "../scripts/io.py", line 4, in <module>
+    from webdriver_manager.firefox import GeckoDriverManager
+ModuleNotFoundError: No module named 'webdriver_manager'
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 9, in <module>
+    from scripts import io
+  File "../scripts/io.py", line 4, in <module>
+    from webdriver_manager.firefox import GeckoDriverManager
+ModuleNotFoundError: No module named 'webdriver_manager'
