@@ -1,55 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 9, in <module>
+    from scripts import io
+  File "../scripts/io.py", line 14, in <module>
+    from gcloud import storage
+ModuleNotFoundError: No module named 'gcloud'
 
 
 ====== WebDriver manager ======
 Current firefox version is 89.0.2
 Get LATEST driver version for 89.0.2
 Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
-#####==========2021-07-14==========#####
-
-START
-execucao :  2020
-Traceback (most recent call last):
-  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 90, in <module>
-    main()
-  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 82, in main
-    upload_bigQuerry()
-  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 18, in upload_bigQuerry
-    io.get_orcamento_executado()
-  File "../scripts/io.py", line 85, in get_orcamento_executado
-    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$cblFase$3").click()
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
-    return self._parent.execute(command, params)
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
-    response = self.command_executor.execute(driver_command, params)
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
-    return self._request(command_info[0], url, body=data)
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/remote_connection.py", line 397, in _request
-    resp = self._conn.request(method, url, body=body, headers=headers)
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/urllib3/request.py", line 78, in request
-    return self.request_encode_body(
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/urllib3/request.py", line 170, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/urllib3/poolmanager.py", line 375, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
-    httplib_response = self._make_request(
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 445, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 3, in raise_from
-  File "/Users/m/miniconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 440, in _make_request
-    httplib_response = conn.getresponse()
-  File "/Users/m/miniconda3/lib/python3.9/http/client.py", line 1347, in getresponse
-    response.begin()
-  File "/Users/m/miniconda3/lib/python3.9/http/client.py", line 307, in begin
-    version, status, reason = self._read_status()
-  File "/Users/m/miniconda3/lib/python3.9/http/client.py", line 268, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-  File "/Users/m/miniconda3/lib/python3.9/socket.py", line 704, in readinto
-    return self._sock.recv_into(b)
-KeyboardInterrupt
-Traceback (most recent call last):
-  File "run.py", line 5, in <module>
-    import pandas as pd
-ModuleNotFoundError: No module named 'pandas'

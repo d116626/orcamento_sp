@@ -17025,3 +17025,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1626239634670	geckodriver	INFO	Listening on 127.0.0.1:51780
+1626239635687	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/71/tpcbz38n2xs1q_96jb1sdmrw0000gn/T/rust_mozprofilehJfBD0"
+*** You are running in headless mode.
+1626239636160	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/71/tpcbz38n2xs1q_96jb1sdmrw0000gn/T/rust_mozprofilehJfBD0/search.json.mozlz4", (void 0)))
+1626239637607	Marionette	INFO	Listening on port 51787
+1626239637677	Marionette	WARN	TLS certificate errors will be ignored for this session
