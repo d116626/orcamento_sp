@@ -75,15 +75,15 @@ def main():
 
     today = datetime.today().strftime("%Y-%m-%d")
 
-    equals = 10 * "="
-    print(f"#####{equals}{today}{equals}#####\n")
+    # equals = 10 * "="
+    # print(f"#####{equals}{today}{equals}#####\n")
 
     print("START")
     upload_bigQuerry()
     print(today)
     print("DONE!")
 
-    print(f"#####{equals}{today}{equals}#####\n")
+    # print(f"#####{equals}{today}{equals}#####\n")
 
 
 if __name__ == "__main__":
