@@ -1575,3 +1575,39 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-08-09==========#####
 
+
+
+====== WebDriver manager ======
+Current firefox version is 90.0.2
+Get LATEST driver version for 90.0.2
+Get LATEST driver version for 90.0.2
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 90.0.2
+Get LATEST driver version for 90.0.2
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
+Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1]
+#####==========2021-08-10==========#####
+
+START
+execucao :  2020
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 90, in <module>
+    main()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 82, in main
+    upload_bigQuerry()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 18, in upload_bigQuerry
+    io.get_orcamento_executado()
+  File "../scripts/io.py", line 66, in get_orcamento_executado
+    firefox = webdriver.Firefox(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver.py", line 170, in __init__
+    RemoteWebDriver.__init__(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status 0
+
