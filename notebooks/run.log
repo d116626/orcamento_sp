@@ -1932,3 +1932,179 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-08-16==========#####
 
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0
+Get LATEST driver version for 91.0
+Get LATEST driver version for 91.0
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 91.0
+Get LATEST driver version for 91.0
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
+Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1]
+#####==========2021-08-17==========#####
+
+START
+execucao :  2020
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 90, in <module>
+    main()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 82, in main
+    upload_bigQuerry()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 18, in upload_bigQuerry
+    io.get_orcamento_executado()
+  File "../scripts/io.py", line 66, in get_orcamento_executado
+    firefox = webdriver.Firefox(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver.py", line 170, in __init__
+    RemoteWebDriver.__init__(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status 0
+
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.1
+Get LATEST driver version for 91.0.1
+There is no [macos] geckodriver for browser 91.0.1 in cache
+Get LATEST driver version for 91.0.1
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 91.0.1
+Get LATEST driver version for 91.0.1
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
+Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1]
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.1
+Get LATEST driver version for 91.0.1
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.1
+Get LATEST driver version for 91.0.1
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.1
+Get LATEST driver version for 91.0.1
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.1
+Get LATEST driver version for 91.0.1
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.1
+Get LATEST driver version for 91.0.1
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+#####==========2021-08-18==========#####
+
+START
+execucao :  2020
+
+
+execucao :  2021
+
+
+
+
+receita -  previsto :  2020
+receita -  previsto :  2021
+
+
+receita -  arrecadado :  2020
+receita -  arrecadado :  2021
+
+
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f80e92016a0>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f80e92016a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/google/auth/transport/requests.py", line 183, in __call__
+    response = self.session.request(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f80e92016a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 90, in <module>
+    main()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 82, in main
+    upload_bigQuerry()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 33, in upload_bigQuerry
+    io.to_gbq(
+  File "../scripts/io.py", line 332, in to_gbq
+    df, destination_table, project_id, credentials=_get_credentials_gbq(), **kwargs
+  File "../scripts/io.py", line 311, in _get_credentials_gbq
+    credentials = pydata_google_auth.get_user_credentials(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/pydata_google_auth/auth.py", line 245, in get_user_credentials
+    credentials = credentials_cache.load()
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/pydata_google_auth/cache.py", line 220, in load
+    return _load_user_credentials_from_file(self._path)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/pydata_google_auth/cache.py", line 89, in _load_user_credentials_from_file
+    return _load_user_credentials_from_info(credentials_json)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/pydata_google_auth/cache.py", line 54, in _load_user_credentials_from_info
+    credentials.refresh(request)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/google/oauth2/credentials.py", line 228, in refresh
+    ) = reauth.refresh_grant(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/google/oauth2/reauth.py", line 318, in refresh_grant
+    response_status_ok, response_data = _client._token_endpoint_request_no_throw(
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/google/oauth2/_client.py", line 115, in _token_endpoint_request_no_throw
+    response = request(method="POST", url=token_uri, headers=headers, body=body)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/google/auth/transport/requests.py", line 189, in __call__
+    six.raise_from(new_exc, caught_exc)
+  File "<string>", line 3, in raise_from
+google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f80e92016a0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
