@@ -19446,3 +19446,12 @@ console.log: WebExtensions: reset-default-search: No addons in our list are inst
 [ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
 [ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
 [ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
+[ERROR osclientcerts_static::backend_macos] SecItemCopyMatching failed: -25300
