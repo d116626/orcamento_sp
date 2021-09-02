@@ -2276,3 +2276,191 @@ Get LATEST driver version for 91.0.2
 Get LATEST driver version for 91.0.2
 Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
 Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1]
+
+
+====== WebDriver manager ======
+#####==========2021-08-29==========#####
+
+START
+execucao :  2020
+
+
+execucao :  2021
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 90, in <module>
+    main()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 82, in main
+    upload_bigQuerry()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 18, in upload_bigQuerry
+    io.get_orcamento_executado()
+  File "../scripts/io.py", line 69, in get_orcamento_executado
+    executable_path=GeckoDriverManager().install(),
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/webdriver_manager/firefox.py", line 22, in __init__
+    self.driver = GeckoDriver(version=version,
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/webdriver_manager/driver.py", line 83, in __init__
+    self.browser_version = firefox_version()
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/webdriver_manager/utils.py", line 174, in firefox_version
+    raise ValueError(f'Could not get version for Firefox with this command: {cmd}')
+ValueError: Could not get version for Firefox with this command: /Applications/Firefox.app/Contents/MacOS/firefox --version
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Get LATEST driver version for 91.0.2
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 91.0.2
+Get LATEST driver version for 91.0.2
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
+Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1]
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+#####==========2021-08-30==========#####
+
+START
+execucao :  2020
+
+
+execucao :  2021
+
+
+
+
+receita -  previsto :  2020
+receita -  previsto :  2021
+
+
+receita -  arrecadado :  2020
+receita -  arrecadado :  2021
+
+
+2021-08-30
+DONE!
+#####==========2021-08-30==========#####
+
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Get LATEST driver version for 91.0.2
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 91.0.2
+Get LATEST driver version for 91.0.2
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
+Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1]
+#####==========2021-08-31==========#####
+
+START
+execucao :  2020
+Traceback (most recent call last):
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 90, in <module>
+    main()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 82, in main
+    upload_bigQuerry()
+  File "/Users/m/gabinite_sv/orcamento_sp/notebooks/run.py", line 18, in upload_bigQuerry
+    io.get_orcamento_executado()
+  File "../scripts/io.py", line 114, in get_orcamento_executado
+    firefox.find_element_by_name("ctl00$ContentPlaceHolder1$btnExcel").click()
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/m/gabinite_sv/orcamento_sp/.orcamento_sp/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="ctl00$ContentPlaceHolder1$btnExcel"]
+
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Get LATEST driver version for 91.0.2
+Getting latest mozilla release info for v0.29.1
+Get LATEST driver version for 91.0.2
+Get LATEST driver version for 91.0.2
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
+Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1]
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 91.0.2
+Get LATEST driver version for 91.0.2
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.29.1/geckodriver] found in cache
+#####==========2021-09-01==========#####
+
+START
+execucao :  2020
+
+
+execucao :  2021
+
+
+
+
+receita -  previsto :  2020
+receita -  previsto :  2021
+
+
+receita -  arrecadado :  2020
+receita -  arrecadado :  2021
+
+
+2021-09-01
+DONE!
+#####==========2021-09-01==========#####
+
