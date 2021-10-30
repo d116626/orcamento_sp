@@ -5036,3 +5036,67 @@ receita -  arrecadado :  2021
 DONE!
 #####==========2021-10-27==========#####
 
+
+
+====== WebDriver manager ======
+Current firefox version is 93.0
+Get LATEST driver version for 93.0
+Get LATEST driver version for 93.0
+Getting latest mozilla release info for v0.30.0
+Get LATEST driver version for 93.0
+Get LATEST driver version for 93.0
+Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-macos.tar.gz
+Driver has been saved in cache [/Users/m/.wdm/drivers/geckodriver/macos/v0.30.0]
+
+
+====== WebDriver manager ======
+Current firefox version is 93.0
+Get LATEST driver version for 93.0
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.30.0/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 93.0
+Get LATEST driver version for 93.0
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.30.0/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 93.0
+Get LATEST driver version for 93.0
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.30.0/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 93.0
+Get LATEST driver version for 93.0
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.30.0/geckodriver] found in cache
+
+
+====== WebDriver manager ======
+Current firefox version is 93.0
+Get LATEST driver version for 93.0
+Driver [/Users/m/.wdm/drivers/geckodriver/macos/v0.30.0/geckodriver] found in cache
+#####==========2021-10-29==========#####
+
+START
+execucao :  2020
+
+
+execucao :  2021
+
+
+
+
+receita -  previsto :  2020
+receita -  previsto :  2021
+
+
+receita -  arrecadado :  2020
+receita -  arrecadado :  2021
+
+
+2021-10-29
+DONE!
+#####==========2021-10-29==========#####
+
