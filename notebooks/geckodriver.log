@@ -23458,3 +23458,21 @@ console.error: BackgroundUpdate:
 1635891502909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1635891672063	Marionette	INFO	Stopped listening on port 54960
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1635976859947	geckodriver	INFO	Listening on 127.0.0.1:50603
+1635976860457	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileErYv5T"
+*** You are running in headless mode.
+*** You are running in headless mode.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1636063255235	geckodriver	INFO	Listening on 127.0.0.1:62316
+1636063255768	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEFEiBw"
+*** You are running in headless mode.
+*** You are running in headless mode.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
